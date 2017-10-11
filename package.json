@@ -1,0 +1,28 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "Verkefni sem mun breyta heiminum",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files indel.html styles.css",
+    "sass": "node-sass styles.scss styles.css -w",
+    "dev": "npm-run-all --parallel sass browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fridasnaedis/Hopverkefni1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fridasnaedis/Hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/fridasnaedis/Hopverkefni1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "npm-run-all": "^4.1.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
