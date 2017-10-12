@@ -7,6 +7,9 @@
     "browser-sync": "browser-sync start --server --files indel.html styles.css",
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync"
+    "lint": "stylelint *.scss scss/*.scss --syntax scss"
+    "stylelint": "^8.1.1",
+    "stylelint-config-primer": "^2.0.1"
   },
   "repository": {
     "type": "git",
