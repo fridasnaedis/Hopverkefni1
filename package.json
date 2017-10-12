@@ -8,8 +8,6 @@
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync"
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
-    "stylelint": "^8.1.1",
-    "stylelint-config-primer": "^2.0.1"
   },
   "repository": {
     "type": "git",
@@ -24,6 +22,8 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "npm-run-all": "^4.1.1"
+    "stylelint": "^8.1.1",
+    "stylelint-config-primer": "^2.0.1"
   },
   "dependencies": {
     "node-sass": "^4.5.3"
