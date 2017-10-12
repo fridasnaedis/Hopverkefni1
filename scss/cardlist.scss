@@ -1,0 +1,34 @@
+.cardlist {
+
+	&__row{
+		display: flex;
+	    flex-wrap: wrap;
+	  	margin-right: -($gutter / 2);
+	  	margin-bottom: $gutter;
+	  	margin-left: -($gutter / 2);
+	}
+
+	/*// mixin sem reiknar nákvæmar prósentur útfrá dálkum
+	@mixin columns($col: 1) {
+  	// margföldum með "1%" til að breyta gildi í prósentu gildi
+  	width: ($col / 12 * 100) * 1%;
+	}*/
+
+	&__col{
+		padding-right: $gutter / 2;
+  		padding-left: $gutter / 2;
+
+  		@include columns(6);
+
+  		@media (max-width: 599px) {
+
+  			@include columns(12);
+
+  		}
+	}
+	.card {
+		margin-bottom: 2em;
+		height: 95%;
+	}
+	
+}
