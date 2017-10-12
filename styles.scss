@@ -1,8 +1,6 @@
-/* Óbreytt úr verkefni 6 */
-
 // breytur fyrir mikið notaðar stærðir
 $max-width: 1200px;
-$gutter: 20px; 
+$gutter: 20px;
 
 /* setjum box-sizing: border-box; á allt */
 html { /* stylelint-disable-line */
@@ -53,3 +51,6 @@ main { /* stylelint-disable-line */
 @import "scss/button";
 @import "scss/card";
 @import "scss/cardlist";
+@import "scss/nav_bar";
+@import "scss/form";
+@import "scss/footer";
