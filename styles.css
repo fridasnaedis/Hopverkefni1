@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Óbreytt úr verkefni 6 */
 /* setjum box-sizing: border-box; á allt */
 html {
   /* stylelint-disable-line */
@@ -51,27 +50,39 @@ main {
     width: 50%; }
   .col-4 {
     width: 33.33333%; }
+  .col-3 {
+    width: 25%; }
   @media (max-width: 599px) {
     .col-sm-12 {
       width: 100%; }
-    .col-sm-8 {
-      width: 66.66667%; }
     .col-sm-6 {
       width: 50%; }
-    .col-sm-4 {
-      width: 33.33333%; } }
+    .col-sm-3 {
+      width: 25%; } }
+
+.offset-2 {
+  margin-left: 16.66667%; }
+
+@media (max-width: 599px) {
+  .offset-sm-0 {
+    margin-left: 0; } }
 
 .header {
   display: flex;
   max-width: 1200px;
-  margin: 0 auto; }
+  min-height: 200px;
+  margin: 0 auto 20px;
+  align-items: center; }
 
 .heading {
   width: 100%;
-  padding: 0;
-  border: none;
   font-family: Merriweather, georgia, serif;
-  font-size: 2rem; }
+  font-size: 2rem;
+  border: 0; }
+  @media (min-width: 1200px) {
+    .heading {
+      padding-right: 0;
+      padding-left: 0; } }
   .heading--one {
     font-size: 3rem; }
   .heading--two {
@@ -80,27 +91,27 @@ main {
     font-size: 1rem; }
 
 .text__p {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .button {
   display: inline-block;
-  margin: 0;
-  padding: 10px 5px;
-  border: 1px solid #666;
-  border-radius: 4px;
   width: 100%;
   max-width: 256px;
+  padding: 10px 5px;
+  margin: 0;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  color: #eee;
-  background-color: #666;
   font-family: Lato, helvetica, arial, sans-serif;
   font-size: 1rem;
-  text-decoration: none;
+  color: #eee;
   text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   cursor: pointer;
-  transition: background-color 0.5s ease, color 0.5s ease; }
+  background-color: #666;
+  border: 1px solid #666;
+  border-radius: 4px;
+  transition: background-color 500ms ease, color 500ms ease; }
   .button:hover {
     color: #eee;
     background-color: #333; }
@@ -111,80 +122,64 @@ main {
     color: #333;
     background-color: #ccc; }
   .button--disabled, .button--disabled:hover {
-    border-color: #eee;
     color: #999;
-    background-color: #eee; }
+    background-color: #eee;
+    border-color: #eee; }
 
 .card {
   width: 100%;
   min-width: 200px;
   max-width: 800px;
   overflow: hidden;
-  border-radius: 3px;
   background-color: #eee;
-  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.5s ease; }
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  transition: background-color 500ms ease; }
+  .card:hover {
+    background-color: #ddd; }
   .card__heading {
-    margin-bottom: 15px;
     width: 100%;
+    margin-bottom: 15px;
     font-family: Merriweather, georgia, serif;
     font-size: 1.5rem;
     word-break: break-word; }
-  .card:hover {
-    background-color: #ddd; }
   .card__content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 15px;
-    /*@media (min-width: 600px) {
-      align-items: flex-start;
-    }*/ }
+    flex-direction: column;
+    align-items: center; }
   .card__text {
     margin-bottom: 30px; }
   .card__img {
     width: 100%;
     min-width: 200px;
-    max-width: 100%;
-    /* @media (min-width: 600px) {
-      height: 100%;
+    max-width: 100%; }
+  @media (min-width: 600px) {
+    .card--wide {
+      display: flex; } }
+  @media (min-width: 600px) {
+    .card--wide .card__content {
+      align-items: flex-start; } }
+  @media (min-width: 600px) {
+    .card--wide .card__img {
       min-width: 400px;
-      object-fit: cover; 
-    }*/ }
+      height: 100%;
+      object-fit: cover; } }
 
-@media (min-width: 600px) {
-  .card--wide {
-    display: flex; } }
+.cardlist__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px; }
 
-@media (min-width: 600px) {
-  .card--wide .card__img {
-    height: 100%;
-    min-width: 400px;
-    object-fit: cover; } }
-
-@media (min-width: 600px) {
-  .card--wide .card__content {
-    align-items: flex-start; } }
-
-.cardlist {
-  /*// mixin sem reiknar nákvæmar prósentur útfrá dálkum
-	@mixin columns($col: 1) {
-  	// margföldum með "1%" til að breyta gildi í prósentu gildi
-  	width: ($col / 12 * 100) * 1%;
-	}*/ }
-  .cardlist__row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -10px;
-    margin-bottom: 20px;
-    margin-left: -10px; }
-  .cardlist__col {
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 50%; }
-    @media (max-width: 599px) {
-      .cardlist__col {
-        width: 100%; } }
-  .cardlist .card {
-    margin-bottom: 2em;
-    height: 95%; }
+.cardlist__col {
+  width: 100%;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0 0 20px; }
+  @media (min-width: 600px) {
+    .cardlist__col {
+      width: 50%;
+      margin-right: 0;
+      margin-left: 0; } }

@@ -1,30 +1,29 @@
 .button {
   display: inline-block;
 
-  margin: 0;
-  padding: 10px 5px;
-  border: 1px solid #666;
-  border-radius: 4px;
   width: 100%;
   max-width: 256px;
+  padding: 10px 5px;
+  margin: 0;
 
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-
-  color: #eee;
-  background-color: #666;
 
   font-family: Lato, helvetica, arial, sans-serif;
   font-size: 1rem;
-
-  text-decoration: none;
+  color: #eee;
   text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
   cursor: pointer;
 
-  transition: background-color 0.5s ease, color 0.5s ease;
+  background-color: #666;
 
+  border: 1px solid #666;
+  border-radius: 4px;
+
+  transition: background-color 500ms ease, color 500ms ease;
 
   &:hover {
     color: #eee;
@@ -43,8 +42,8 @@
 
   &--disabled,
   &--disabled:hover {
-    border-color: #eee;
     color: #999;
     background-color: #eee;
+    border-color: #eee;
   }
 }
