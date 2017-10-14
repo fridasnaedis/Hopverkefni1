@@ -42,6 +42,30 @@ main {
   margin: 0 auto;
   overflow-x: hidden; }
 
+label {
+  display: block; }
+
+.field {
+  margin-bottom: 20px; }
+
+legend {
+  font-size: 2rem; }
+
+.kyn {
+  display: column; }
+
+.kyn1 {
+  display: row; }
+
+.kyn2 {
+  display: row; }
+
+.kyn3 {
+  display: row; }
+
+.date {
+  display: row; }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -251,3 +275,27 @@ main {
       width: 50%;
       margin-right: 0;
       margin-left: 0; } }
+
+.navbar {
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline flex;
+  list-style-type: none; }
+  .navbar a {
+    float: right;
+    margin: auto;
+    text-decoration: none;
+    padding: 5px;
+    color: white; }
+  .navbar li:first-child {
+    /*láta fooþjónusta til vinstri*/
+    float: left;
+    padding: 5px; }
+  .navbar .um a {
+    /*staðsetja um rétt*/
+    padding: 13px;
+    padding-right: 20px; }

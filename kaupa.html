@@ -32,21 +32,32 @@
 
               <div class="field">
                 <label for="Kennitala">Kennitala:</label>
-                <input id="kennitala" type="text"  name="kennitala"></input>
+                <input id="kennitala" type="text"  name="kennitala" placeholder="123456-7890"></input>
               </div>
 
               <div class="field">
                 <label>Kyn:</label>
+
+                <div class="kyn">
+
+                <div class="kyn1">
                 <input id="kyn" type="radio" name="radio"> Kona</input>
+                </div>
 
+                <div class="kyn2">
                 <input id="kyn" type="radio" name="radio"> Karl</input>
+                </div>
 
+                <div class="kyn3">
                 <input id="kyn" type="radio" name="radio"> Annað</input>
+                </div>
+
+                </div>
               </div>
 
               <div class="field">
                 <label for="Simi">Sími:</label>
-                <input id="simi" type="text"  name="simi"></input>
+                <input id="simi" type="text" name="simi" placeholder="+354 812 3456"></input>
               </div>
 
               <div class="field">
@@ -77,34 +88,39 @@
 
               <div class="field">
                 <label for="Kortanumer">Kortanúmer:</label>
-                <input id="kortanumer" type="text"  name="kortanumer"></input>
+                <input id="kortanumer" type="text" name="kortanumer" placeholder="5999-9999-9999-9999"></input>
               </div>
 
               <div class="field">
-                <label>Gildistími:</label>
-                <label>Mán</label>
-                <select name="manudur">
-                    <option value="januar">01</option>
-                    <option value="februar">02</option>
-                    <option value="mars">03</option>
-                    <option value="april">04</option>
-                    <option value="mai">05</option>
-                    <option value="juni">06</option>
-                    <option value="juli">07</option>
-                    <option value="agust">08</option>
-                    <option value="september">09</option>
-                    <option value="oktober">10</option>
-                    <option value="november">11</option>
-                    <option value="desember">12</option>
-                  </select>
+                  <label>Gildistími:</label>
 
-                <label>Ár</label>
-                  <select name="ar">
-                    <option value="2017">2017</option>
-                    <option value="2018">2018</option>
-                    <option value="2019">2019</option>
-                    <option value="2020">2020</option>
-                  </select>
+                  <div class="date">
+                      <label>Mán
+                        <select name="manudur">
+                            <option value="januar">01</option>
+                            <option value="februar">02</option>
+                            <option value="mars">03</option>
+                            <option value="april">04</option>
+                            <option value="mai">05</option>
+                            <option value="juni">06</option>
+                            <option value="juli">07</option>
+                            <option value="agust">08</option>
+                            <option value="september">09</option>
+                            <option value="oktober">10</option>
+                            <option value="november">11</option>
+                            <option value="desember">12</option>
+                          </select>
+                      </label>
+
+                      <label>Ár
+                        <select name="ar">
+                          <option value="2017">2017</option>
+                          <option value="2018">2018</option>
+                          <option value="2019">2019</option>
+                          <option value="2020">2020</option>
+                        </select>
+                      </label>
+                  </div>
               </div>
             </div>
           </div>
