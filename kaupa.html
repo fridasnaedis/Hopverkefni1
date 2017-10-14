@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html class="grid" lang="is">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hópaverkefni 1</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="styleguide.css">
   <link rel="stylesheet" href="grid.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <nav>
-    <!-- navigation bar eyy -->
-  </nav>
-
-
   <header>
     <div class="header-container">
       <h1>Kaupa</h1>
@@ -28,17 +23,106 @@
     <form>
         <div class="grid">
           <div class="row">
-            <div class="col col-12 col-sm-6">
+            <div class="col col-4">
               <legend>Persónuupplýsingar</legend>
               <div class="field">
                 <label for="Nafn">Nafn:</label>
-                <input id="Nafn" type="text" name="nafn" required></input>
+                <input id="nafn" type="text" name="nafn"></input>
               </div>
 
               <div class="field">
                 <label for="Kennitala">Kennitala:</label>
-                <input id="Kennitala" type="text"  name="kennitala" required></input>
+                <input id="kennitala" type="text"  name="kennitala"></input>
               </div>
+
+              <div class="field">
+                <label>Kyn:</label>
+
+                <div class="kyn">
+
+                <div class="kyn1">
+                <input id="kyn" type="radio" name="radio"> Kona</input>
+                </div>
+
+                <div class="kyn2">
+                <input id="kyn" type="radio" name="radio"> Karl</input>
+                </div>
+
+                <div class="kyn3">
+                <input id="kyn" type="radio" name="radio"> Annað</input>
+                </div>
+
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="Simi">Sími:</label>
+                <input id="simi" type="text"  name="simi"></input>
+              </div>
+
+              <div class="field">
+                <label for="Heimilisfang">Heimilisfang:</label>
+                <input id="heimilisfang" type="text"  name="heimilisfang"></input>
+              </div>
+
+              <div>
+                <input id="checkbox" type="checkbox" checked> Skrá mig á póstlista</input>
+              </div>
+            </div>
+
+            <div class="col col-4">
+              <legend>Greiðsluupplýsingar</legend>
+              <div class="field">
+                <label>Greiða með:</label>
+                <select name="tegund">
+                  <option value="kreditkorti">Kreditkorti</option>
+                  <option value="millifærslu">Millifærslu</option>
+                  <option value="reiðufé">Reiðufé</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="Kortanafn">Nafn á korti:</label>
+                <input id="kortanafn" type="text"  name="kortanafn"></input>
+              </div>
+
+              <div class="field">
+                <label for="Kortanumer">Kortanúmer:</label>
+                <input id="kortanumer" type="text"  name="kortanumer"></input>
+              </div>
+
+              <div class="field">
+                <label>Gildistími:</label>
+                <label>Mán</label>
+                <select name="manudur">
+                    <option value="januar">01</option>
+                    <option value="februar">02</option>
+                    <option value="mars">03</option>
+                    <option value="april">04</option>
+                    <option value="mai">05</option>
+                    <option value="juni">06</option>
+                    <option value="juli">07</option>
+                    <option value="agust">08</option>
+                    <option value="september">09</option>
+                    <option value="oktober">10</option>
+                    <option value="november">11</option>
+                    <option value="desember">12</option>
+                  </select>
+
+                <label>Ár</label>
+                  <select name="ar">
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                  </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-4">
+              <input type="submit" value="Panta">
             </div>
           </div>
         </div>
