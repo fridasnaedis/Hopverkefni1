@@ -1,0 +1,34 @@
+.navbar{
+	margin: 0 auto;
+	overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+	display: inline flex;
+
+	list-style-type: none;
+
+	a {
+		float: right;
+		margin: auto;
+
+    text-decoration: none;
+		padding: 5px;
+		color: white;
+
+	}
+	
+
+	li:first-child { /*láta fooþjónusta til vinstri*/
+		float:left;
+		padding:5px;
+
+	}
+
+	.um a{ /*staðsetja um rétt*/
+		padding: 13px;
+		padding-right: 20px;
+	}
+
+}
