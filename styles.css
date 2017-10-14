@@ -26,14 +26,6 @@ img {
   /* stylelint-disable-line */
   max-width: 100%; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-=======
->>>>>>> c5014df5ec9ea043131a48212e4fe037012de69f
 .img-circle {
   border-radius: 50%; }
 
@@ -44,7 +36,6 @@ img {
   height: 25px;
   width: 25px; }
 
->>>>>>> 632ec20db2348c7fa91a35a8ec9402bcf6e12794
 main {
   /* stylelint-disable-line */
   max-width: 1200px;
@@ -53,6 +44,12 @@ main {
 
 label {
   display: block; }
+
+.field {
+  margin-bottom: 20px; }
+
+legend {
+  font-size: 2rem; }
 
 .kyn {
   display: column; }
