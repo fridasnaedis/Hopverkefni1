@@ -60,6 +60,10 @@ label {
   display: block;
 }
 
+.dalkur {
+  
+}
+
 .field {
   margin-bottom: 20px;
 }
@@ -84,9 +88,11 @@ legend {
   display: row;
 }
 
-.date {
-  display: row;
+.date label{
+  display: inline-block;
 }
+
+
 
 @import "scss/grid";
 @import "scss/header";

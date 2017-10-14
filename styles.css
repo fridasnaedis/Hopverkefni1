@@ -63,8 +63,8 @@ legend {
 .kyn3 {
   display: row; }
 
-.date {
-  display: row; }
+.date label {
+  display: inline-block; }
 
 .row {
   display: flex;
