@@ -2,4 +2,14 @@
   &__p {
     margin-bottom: 20px;
   }
+  blockquote {
+  margin: 1em 0 1em 2em;
+  font-size: 2em;
+  line-height: 1.5;
+  font-style: italic;
+  	.author {
+  		font-size: 0.5em;
+  		font-style: normal;
+  	}
+  }
 }

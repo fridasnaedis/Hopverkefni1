@@ -26,10 +26,6 @@ img {
   /* stylelint-disable-line */
   max-width: 100%; }
 
-.img-circle {
-    border-radius: 50%;
-}
-
 main {
   /* stylelint-disable-line */
   max-width: 1200px;
@@ -96,6 +92,15 @@ main {
 
 .text__p {
   margin-bottom: 20px; }
+
+.text blockquote {
+  margin: 1em 0 1em 2em;
+  font-size: 2em;
+  line-height: 1.5;
+  font-style: italic; }
+  .text blockquote .author {
+    font-size: 0.5em;
+    font-style: normal; }
 
 .button {
   display: inline-block;
