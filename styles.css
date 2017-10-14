@@ -137,6 +137,17 @@ legend {
     animation-duration: 3s;
     animation-delay: 4s; }
 
+.header__rest {
+  display: flex;
+  flex-direction: column;
+  height: 30em;
+  background-image: url(img/resources/bg-subpage.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  justify-content: center; }
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -158,6 +169,9 @@ legend {
     font-size: 2rem; }
   .heading--three {
     font-size: 1rem; }
+
+.heading .rest {
+  color: #fff; }
 
 .text__p {
   margin-bottom: 20px; }
