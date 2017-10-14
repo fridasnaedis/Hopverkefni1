@@ -63,6 +63,9 @@ legend {
 .kyn3 {
   display: row; }
 
+.date {
+  display: row; }
+
 .row {
   display: flex;
   flex-wrap: wrap;
