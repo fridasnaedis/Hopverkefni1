@@ -44,6 +44,25 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
+label {
+  display: block;
+}
+
+.kyn {
+  display: column;
+}
+
+.kyn1 {
+  display: row;
+}
+
+.kyn2 {
+  display: row;
+}
+.kyn3 {
+  display: row;
+}
+
 @import "scss/grid";
 @import "scss/header";
 @import "scss/heading";
