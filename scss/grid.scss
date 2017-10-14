@@ -37,7 +37,7 @@
   }
 
   &-sm {
-    @media (max-width: 599px) {
+    @media (max-width: 399px) {
       &-12 {
         @include columns(12);
       }
