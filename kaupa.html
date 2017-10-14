@@ -12,11 +12,6 @@
 </head>
 
 <body>
-  <nav>
-    <!-- navigation bar eyy -->
-  </nav>
-
-
   <header>
     <div class="header-container">
       <h1>Kaupa</h1>
@@ -31,38 +26,36 @@
             <div class="col col-4">
               <legend>Persónuupplýsingar</legend>
               <div class="field">
-                <label for="nafn">Nafn:</label>
-                <input id="nafn" type="text" name="nafn" required></input>
+                <label for="Nafn">Nafn:</label>
+                <input id="nafn" type="text" name="nafn"></input>
               </div>
 
               <div class="field">
-                <label for="kennitala">Kennitala:</label>
-                <input id="kennitala" type="text"  name="kennitala" required></input>
+                <label for="Kennitala">Kennitala:</label>
+                <input id="kennitala" type="text"  name="kennitala"></input>
               </div>
 
-              <div>
+              <div class="field">
                 <label>Kyn:</label>
-                <input id="kona" type="radio" name="radio">
-                <label for="kona">Kona</label>
-                <input id="karl" type="radio" name="radio">
-                <label for="karl">Karl</label>
-                <input id="annad" type="radio" name="radio">
-                <label for="annad">Annað</label>
+                <input id="kyn" type="radio" name="radio"> Kona</input>
+
+                <input id="kyn" type="radio" name="radio"> Karl</input>
+
+                <input id="kyn" type="radio" name="radio"> Annað</input>
               </div>
 
               <div class="field">
-                <label for="simi">Sími:</label>
-                <input id="simi" type="text"  name="simi" required></input>
+                <label for="Simi">Sími:</label>
+                <input id="simi" type="text"  name="simi"></input>
               </div>
 
               <div class="field">
-                <label for="heimilisfang">Heimilisfang:</label>
-                <input id="heimilisfang" type="text"  name="heimilisfang" required></input>
+                <label for="Heimilisfang">Heimilisfang:</label>
+                <input id="heimilisfang" type="text"  name="heimilisfang"></input>
               </div>
 
               <div>
-                <input id="checkbox" type="checkbox" checked>
-                <label for="checkbot">Skrá mig á póstlista</label>
+                <input id="checkbox" type="checkbox" checked> Skrá mig á póstlista</input>
               </div>
             </div>
 
@@ -78,13 +71,13 @@
               </div>
 
               <div class="field">
-                <label for="kortanafn">Nafn á korti:</label>
-                <input id="kortanafn" type="text"  name="kortanafn" required></input>
+                <label for="Kortanafn">Nafn á korti:</label>
+                <input id="kortanafn" type="text"  name="kortanafn"></input>
               </div>
 
               <div class="field">
-                <label for="kortanumer">Kortanúmer:</label>
-                <input id="kortanumer" type="text"  name="kortanumer" required></input>
+                <label for="Kortanumer">Kortanúmer:</label>
+                <input id="kortanumer" type="text"  name="kortanumer"></input>
               </div>
 
               <div class="field">
@@ -114,7 +107,12 @@
                   </select>
               </div>
             </div>
+          </div>
 
+          <div class="row">
+            <div class="col col-4">
+              <input type="submit" value="Panta">
+            </div>
           </div>
         </div>
     </form>

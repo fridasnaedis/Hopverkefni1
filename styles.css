@@ -26,10 +26,6 @@ img {
   /* stylelint-disable-line */
   max-width: 100%; }
 
-.img-circle {
-    border-radius: 50%;
-}
-
 main {
   /* stylelint-disable-line */
   max-width: 1200px;
