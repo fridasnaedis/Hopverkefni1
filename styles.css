@@ -15,7 +15,7 @@ html {
   /* stylelint-disable-line */
   margin-right: 20px;
   margin-left: 20px;
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: Open Sans, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5; }
   @media (min-width: 1200px) {
@@ -25,6 +25,9 @@ html {
 img {
   /* stylelint-disable-line */
   max-width: 100%; }
+
+<<<<<<< HEAD
+=======
 
 .img-circle {
   border-radius: 50%; }
@@ -121,7 +124,7 @@ main {
 
 .heading {
   width: 100%;
-  font-family: Merriweather, georgia, serif;
+  font-family: Roboto Slab, georgia, serif;
   font-size: 2rem;
   border: 0; }
   @media (min-width: 1200px) {
@@ -137,6 +140,15 @@ main {
 
 .text__p {
   margin-bottom: 20px; }
+
+.text blockquote {
+  margin: 1em 0 1em 2em;
+  font-size: 2em;
+  line-height: 1.5;
+  font-style: italic; }
+  .text blockquote .author {
+    font-size: 0.5em;
+    font-style: normal; }
 
 .button {
   display: inline-block;
@@ -185,7 +197,7 @@ main {
   .card__heading {
     width: 100%;
     margin-bottom: 15px;
-    font-family: Merriweather, georgia, serif;
+    font-family: Roboto Slab, georgia, serif;
     font-size: 1.5rem;
     word-break: break-word; }
   .card__content {
