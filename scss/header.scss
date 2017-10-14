@@ -40,6 +40,18 @@
     }
 }
 
+.header__um{
+  display: flex;
+    flex-direction: column;
+    height: 30em;
+    background-image: url(img/resources/bg-subpage.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+}
+
 @-webkit-keyframes fadeIn {
   0%   { opacity: 0; }
   100% { opacity: 1; }
