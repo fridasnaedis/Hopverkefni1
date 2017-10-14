@@ -113,7 +113,7 @@ main {
     animation-duration: 3s;
     animation-delay: 4s; }
 
-.header__um {
+.header__rest {
   display: flex;
   flex-direction: column;
   height: 30em;
@@ -146,7 +146,7 @@ main {
   .heading--three {
     font-size: 1rem; }
 
-.heading .um {
+.heading .rest {
   color: #fff; }
 
 .text__p {
