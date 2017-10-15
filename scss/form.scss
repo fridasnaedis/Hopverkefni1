@@ -10,7 +10,24 @@
 
 	.upplys {
 	  font-size: 1.5em;
+		font-weight: bold;
+		-webkit-transition: font-size 4s;
 	  margin-bottom: 20px;
+		margin-top: 30px;
+	}
+
+	@media (max-width: 799px) {
+		.upplys {
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+	}
+
+	@media (max-width: 599px) {
+		.upplys {
+			font-size: 1em;
+			font-weight: bold;
+		}
 	}
 
 	#textbox {
