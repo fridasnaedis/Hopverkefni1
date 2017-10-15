@@ -64,6 +64,10 @@ label {
   width: 41.666667%
 }
 
+.col-2 {
+  width: 16.6666667%;
+}
+
 .offset-1 {
   margin-left: 8.333333%
 }
@@ -81,6 +85,14 @@ label {
 legend {
   font-size: 2rem;
   margin-bottom: 20px;
+}
+
+#textbox {
+  width: 100%;
+}
+
+.submit_button {
+    text-align: center;
 }
 
 .kyn {

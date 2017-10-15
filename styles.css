@@ -48,6 +48,9 @@ label {
 .col-5 {
   width: 41.666667%; }
 
+.col-2 {
+  width: 16.6666667%; }
+
 .offset-1 {
   margin-left: 8.333333%; }
 
@@ -61,6 +64,12 @@ label {
 legend {
   font-size: 2rem;
   margin-bottom: 20px; }
+
+#textbox {
+  width: 100%; }
+
+.submit_button {
+  text-align: center; }
 
 .kyn {
   display: column; }
@@ -93,6 +102,8 @@ legend {
     width: 66.66667%; }
   .col-6 {
     width: 50%; }
+  .col-5 {
+    width: 41.66667%; }
   .col-4 {
     width: 33.33333%; }
   .col-3 {
