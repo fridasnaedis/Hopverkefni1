@@ -1,52 +1,53 @@
-.navbar{
-	height: 40px;
+.navbar {
 	line-height: 40px;
-
-	margin: 0 auto;
-	overflow: hidden;
-	position: absolute;
-	background-color: #333;
-	opacity:0.8;
-	top: 0;
-	width: 100%;
-	max-width: 1200px;
-	display: inline;
-
 	list-style-type: none;
-
-
 
 	a {
 		float: right;
-		margin: auto;
-
+		margin-left: 10px;
+		margin-right: 10px;
 		font-size: 1rem;
-    text-decoration: none;
+		text-decoration: none;
 		color: white;
 	}
 
-
-	li:first-child { /*láta fooþjónusta til vinstri*/
-		float:left;
+	.row {
+		max-width: 1200px;
 		margin: auto;
-
 	}
 
-	button{
+	li:first-child {
+		/*láta fooþjónusta til vinstri*/
+		float: left;
+	}
+
+	button {
 		display: none;
 		padding: 5px;
 	}
-
-	.um a{ /*staðsetja um rétt*/
-		padding-right: 20px;
-	}
-
-
 	@media (min-width: 400px) {
-		button{
+		button {
 			display: inline;
 		}
-
 	}
+	@media (min-width: 1200px) {
+		a {
+			margin-left: -10px;
+			margin-right: -10px;
+		}
 
+		.um {
+			margin-right: 80px;
+		}
+	}
+}
+
+.nav {
+	height: 40px;
+	position: fixed;
+	background-color: #333;
+	opacity: 0.8;
+	top: 0;
+	left: 0;
+	right: 0;
 }

@@ -268,37 +268,42 @@ main {
       margin-left: 0; } }
 
 .navbar {
-  height: 40px;
   line-height: 40px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: absolute;
-  background-color: #333;
-  opacity: 0.8;
-  top: 0;
-  width: 100%;
-  max-width: 1200px;
-  display: inline;
   list-style-type: none; }
   .navbar a {
     float: right;
-    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 1rem;
     text-decoration: none;
     color: white; }
+  .navbar .row {
+    max-width: 1200px;
+    margin: auto; }
   .navbar li:first-child {
     /*láta fooþjónusta til vinstri*/
-    float: left;
-    margin: auto; }
+    float: left; }
   .navbar button {
     display: none;
     padding: 5px; }
-  .navbar .um a {
-    /*staðsetja um rétt*/
-    padding-right: 20px; }
   @media (min-width: 400px) {
     .navbar button {
       display: inline; } }
+  @media (min-width: 1200px) {
+    .navbar a {
+      margin-left: -10px;
+      margin-right: -10px; }
+    .navbar .um {
+      margin-right: 80px; } }
+
+.nav {
+  height: 40px;
+  position: fixed;
+  background-color: #333;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  right: 0; }
 
 .form label {
   display: block; }
@@ -342,18 +347,21 @@ main {
   display: row; }
 
 .footer {
-  background-color: black;
-  margin: 0 auto;
-  overflow: hidden;
-  bottom: 0;
-  width: 100%;
   display: inline;
   text-align: center;
   color: white; }
   .footer .row {
-    padding: 20px; }
-  .footer .box {
-    background-color: #333; }
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto; }
   .footer .copyright {
     border-top: 2px solid white;
-    opacity: 0.5; }
+    opacity: 0.5;
+    max-width: 1200px;
+    margin: auto; }
+
+.box {
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  right: 0; }
