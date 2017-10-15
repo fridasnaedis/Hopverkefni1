@@ -359,9 +359,14 @@ main {
     border-top: 2px solid white;
     opacity: 0.5;
     max-width: 1200px;
-    margin: auto; }
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px; }
   .footer .about {
     padding-bottom: 20px; }
+  @media (min-width: 1200px) {
+    .footer .copyright {
+      margin: auto; } }
 
 .box {
   background-color: #333;
