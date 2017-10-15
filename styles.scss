@@ -59,12 +59,33 @@ label {
   display: block;
 }
 
+
+.col-5 {
+  width: 41.666667%
+}
+
+.col-2 {
+  width: 16.6666667%;
+}
+
+.offset-1 {
+  margin-left: 8.333333%
+}
+
 .field {
   margin-bottom: 20px;
 }
 
 legend {
   font-size: 2rem;
+}
+
+#textbox {
+  width: 100%;
+}
+
+.submit_button {
+    text-align: center;
 }
 
 .kyn {

@@ -28,6 +28,10 @@
     @include columns(6);
   }
 
+  &-5 {
+    @include columns(5);
+  }
+
   &-4 {
     @include columns(4);
   }
@@ -56,6 +60,10 @@
 .offset {
   &-2 {
     margin-left: (2 / 12 * 100) * 1%; // reiknað einsog að ofan
+  }
+
+  &-3 {
+    margin-left: (3 / 12 * 100) * 1%; // reiknað einsog að ofan
   }
 
   &-sm {
