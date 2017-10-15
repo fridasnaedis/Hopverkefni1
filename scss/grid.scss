@@ -58,6 +58,10 @@
 }
 
 .offset {
+  &-1 {
+    margin-left: (1 / 12 * 100) * 1%
+  }
+
   &-2 {
     margin-left: (2 / 12 * 100) * 1%; // reiknað einsog að ofan
   }
@@ -67,7 +71,7 @@
   }
 
   &-sm {
-    @media (max-width: 599px) {
+    @media (max-width: 399px) {
       &-0 {
         margin-left: 0;
       }

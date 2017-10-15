@@ -76,8 +76,9 @@ label {
   margin-bottom: 20px;
 }
 
-legend {
+.upplys {
   font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 #textbox {
@@ -104,9 +105,6 @@ legend {
   display: row;
 }
 
-.date {
-  display: row;
-}
 
 @import "scss/grid";
 @import "scss/header";

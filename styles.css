@@ -57,8 +57,9 @@ label {
 .field {
   margin-bottom: 20px; }
 
-legend {
-  font-size: 2rem; }
+.upplys {
+  font-size: 2rem;
+  margin-bottom: 20px; }
 
 #textbox {
   width: 100%; }
@@ -76,9 +77,6 @@ legend {
   display: row; }
 
 .kyn3 {
-  display: row; }
-
-.date {
   display: row; }
 
 .row {
@@ -111,13 +109,16 @@ legend {
     .col-sm-3 {
       width: 25%; } }
 
+.offset-1 {
+  margin-left: 8.33333%; }
+
 .offset-2 {
   margin-left: 16.66667%; }
 
 .offset-3 {
   margin-left: 25%; }
 
-@media (max-width: 599px) {
+@media (max-width: 399px) {
   .offset-sm-0 {
     margin-left: 0; } }
 
