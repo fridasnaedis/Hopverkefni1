@@ -45,11 +45,22 @@ main {
 label {
   display: block; }
 
+.col-5 {
+  width: 41.666667%; }
+
+.offset-1 {
+  margin-left: 8.333333%; }
+
 .field {
   margin-bottom: 20px; }
 
+@media (max-width: 399px) {
+  .col-sm-12 {
+    width: 100%; } }
+
 legend {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-bottom: 20px; }
 
 .kyn {
   display: column; }
@@ -63,8 +74,8 @@ legend {
 .kyn3 {
   display: row; }
 
-.date {
-  display: row; }
+.date label {
+  display: inline-block; }
 
 .row {
   display: flex;
@@ -86,7 +97,7 @@ legend {
     width: 33.33333%; }
   .col-3 {
     width: 25%; }
-  @media (max-width: 599px) {
+  @media (max-width: 399px) {
     .col-sm-12 {
       width: 100%; }
     .col-sm-6 {
