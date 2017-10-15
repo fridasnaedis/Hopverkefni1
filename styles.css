@@ -308,7 +308,20 @@ main {
 
 .form .upplys {
   font-size: 1.5em;
-  margin-bottom: 20px; }
+  font-weight: bold;
+  -webkit-transition: font-size 4s;
+  margin-bottom: 20px;
+  margin-top: 30px; }
+
+@media (max-width: 799px) {
+  .form .upplys {
+    font-size: 1.2em;
+    font-weight: bold; } }
+
+@media (max-width: 599px) {
+  .form .upplys {
+    font-size: 1em;
+    font-weight: bold; } }
 
 .form #textbox {
   width: 100%; }
