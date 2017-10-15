@@ -1,5 +1,5 @@
 .navbar {
-	line-height: 40px;
+	line-height: 2.5rem;
 	list-style-type: none;
 
 	a {
@@ -13,11 +13,10 @@
 
 	.row {
 		max-width: 1200px;
-		margin: auto;
+		margin:auto;
 	}
 
 	li:first-child {
-		/*láta fooþjónusta til vinstri*/
 		float: left;
 	}
 
@@ -27,6 +26,7 @@
 	}
 	@media (min-width: 400px) {
 		button {
+
 			display: inline;
 		}
 	}
@@ -43,7 +43,6 @@
 }
 
 .nav {
-	height: 40px;
 	position: fixed;
 	background-color: #333;
 	opacity: 0.8;

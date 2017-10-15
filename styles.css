@@ -40,6 +40,7 @@ main {
   /* stylelint-disable-line */
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 220px;
   overflow-x: hidden; }
 
 .row {
@@ -268,7 +269,7 @@ main {
       margin-left: 0; } }
 
 .navbar {
-  line-height: 40px;
+  line-height: 2.5rem;
   list-style-type: none; }
   .navbar a {
     float: right;
@@ -281,7 +282,6 @@ main {
     max-width: 1200px;
     margin: auto; }
   .navbar li:first-child {
-    /*láta fooþjónusta til vinstri*/
     float: left; }
   .navbar button {
     display: none;
@@ -297,7 +297,6 @@ main {
       margin-right: 80px; } }
 
 .nav {
-  height: 40px;
   position: fixed;
   background-color: #333;
   opacity: 0.8;
@@ -346,9 +345,14 @@ main {
     opacity: 0.5;
     max-width: 1200px;
     margin: auto; }
+  .footer .about {
+    padding-bottom: 20px; }
 
 .box {
   background-color: #333;
-  position: fixed;
+  position: absolute;
+  margin-left: -20px;
+  margin-right: -20px;
   left: 0;
-  right: 0; }
+  right: 0;
+  bottom: 0; }
