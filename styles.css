@@ -347,6 +347,10 @@ main {
 .form .kyn3 {
   display: row; }
 
+.form .date {
+  display: flex;
+  color: red; }
+
 .footer {
   display: inline;
   text-align: center;
