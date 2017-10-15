@@ -21,20 +21,20 @@
   </header>
 
   <main>
-    <form>
+    <form class="form">
         <div class="grid">
           <div class="row">
-            <div class="offset-1 col col-5 col-sm-12">
+            <div class="offset-1 col col-4 col-sm-12">
 
-                <legend>Persónuupplýsingar</legend>
                 <div class="field">
+                    <p class="upplys">Persónuupplýsingar</p>
                   <label for="Nafn">Nafn:</label>
                   <input id="textbox" type="text" name="nafn"></input>
                 </div>
 
                 <div class="field">
                   <label for="Kennitala">Kennitala:</label>
-                  <input id="textbox" type="text"  name="kennitala" placeholder="123456-7890"></input>
+                  <input id="textbox" type="text" name="kennitala" placeholder="123456-7890"></input>
                 </div>
 
                 <div class="field">
@@ -42,17 +42,17 @@
 
                   <div class="kyn">
 
-                  <div class="kyn1">
-                  <input id="kyn" type="radio" name="radio"> Kona</input>
-                  </div>
+                    <div class="kyn1">
+                      <input id="kyn" type="radio" name="radio"> Kona</input>
+                    </div>
 
-                  <div class="kyn2">
-                  <input id="kyn" type="radio" name="radio"> Karl</input>
-                  </div>
+                    <div class="kyn2">
+                      <input id="kyn" type="radio" name="radio"> Karl</input>
+                    </div>
 
-                  <div class="kyn3">
-                  <input id="kyn" type="radio" name="radio"> Annað</input>
-                  </div>
+                    <div class="kyn3">
+                      <input id="kyn" type="radio" name="radio"> Annað</input>
+                    </div>
 
                   </div>
                 </div>
@@ -64,7 +64,7 @@
 
                 <div class="field">
                   <label for="Heimilisfang">Heimilisfang:</label>
-                  <input id="textbox" type="text"  name="heimilisfang"></input>
+                  <input id="textbox" type="text" name="heimilisfang"></input>
                 </div>
 
                 <div>
@@ -73,7 +73,7 @@
           </div>
 
             <div class="offset-1 col col-4 col-sm-12">
-              <legend>Greiðsluupplýsingar</legend>
+              <p class="upplys">Greiðsluupplýsingar</p>
               <div class="field">
                 <label>Greiða með:</label>
                 <select name="tegund" id="textbox">
@@ -96,8 +96,8 @@
               <div class="field">
                   <label>Gildistími:</label>
                     <div class="date">
-                      <label>Mán
-                        <select name="manudur">
+                      <label for="month">Mán
+                        <select name="month" id="month">
                             <option value="januar">01</option>
                             <option value="februar">02</option>
                             <option value="mars">03</option>
@@ -113,8 +113,8 @@
                           </select>
                       </label>
 
-                      <label>Ár
-                        <select name="ar">
+                      <label for="textbox_2">Ár
+                        <select name="ar" id="textbox_2">
                           <option value="2017">2017</option>
                           <option value="2018">2018</option>
                           <option value="2019">2019</option>
@@ -135,7 +135,6 @@
           </div>
         </div>
     </form>
-
 
   </main>
 </body>

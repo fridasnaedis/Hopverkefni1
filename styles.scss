@@ -55,59 +55,6 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
-label {
-  display: block;
-}
-
-
-.col-5 {
-  width: 41.666667%
-}
-
-.col-2 {
-  width: 16.6666667%;
-}
-
-.offset-1 {
-  margin-left: 8.333333%
-}
-
-.field {
-  margin-bottom: 20px;
-}
-
-legend {
-  font-size: 2rem;
-}
-
-#textbox {
-  width: 100%;
-}
-
-.submit_button {
-    text-align: center;
-}
-
-.kyn {
-  display: column;
-}
-
-.kyn1 {
-  display: row;
-}
-
-.kyn2 {
-  display: row;
-}
-
-.kyn3 {
-  display: row;
-}
-
-.date {
-  display: row;
-}
-
 @import "scss/grid";
 @import "scss/header";
 @import "scss/heading";
