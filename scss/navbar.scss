@@ -1,34 +1,52 @@
 .navbar{
+	height: 40px;
+	line-height: 40px;
+
 	margin: 0 auto;
 	overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-	display: inline flex;
+	position: absolute;
+	background-color: #333;
+	opacity:0.8;
+	top: 0;
+	width: 100%;
+	max-width: 1200px;
+	display: inline;
 
 	list-style-type: none;
+
+
 
 	a {
 		float: right;
 		margin: auto;
 
+		font-size: 1rem;
     text-decoration: none;
-		padding: 5px;
 		color: white;
-
 	}
-	
+
 
 	li:first-child { /*láta fooþjónusta til vinstri*/
 		float:left;
-		padding:5px;
+		margin: auto;
 
 	}
 
+	button{
+		display: none;
+		padding: 5px;
+	}
+
 	.um a{ /*staðsetja um rétt*/
-		padding: 13px;
 		padding-right: 20px;
+	}
+
+
+	@media (min-width: 400px) {
+		button{
+			display: inline;
+		}
+
 	}
 
 }

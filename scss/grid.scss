@@ -58,6 +58,10 @@
     margin-left: (2 / 12 * 100) * 1%; // reiknað einsog að ofan
   }
 
+  &-3 {
+    margin-left: (3 / 12 * 100) * 1%; // reiknað einsog að ofan
+  }
+
   &-sm {
     @media (max-width: 599px) {
       &-0 {

@@ -1,3 +1,25 @@
 .footer{
-	
+	background-color: black;
+
+	margin: 0 auto;
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
+	display: inline;
+
+	text-align: center;
+	color: white;
+
+.row{
+	padding: 20px;
+}
+
+.box{
+	background-color: #333;
+}
+
+.copyright{
+	border-top: 2px solid white;
+	opacity: 0.5;
+}
 }
