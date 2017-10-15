@@ -13,9 +13,10 @@
 
 <body>
   <header>
-    <div class="header-container">
-      <h1>Kaupa</h1>
-      <img src="img/resources/bg-subpage.jpg" width="120px" height="120px">
+    <div class="header__rest">
+      <div class="heading">
+        <h1 class="rest">Kaupa</h1>
+      </div>
     </div>
   </header>
 
@@ -23,58 +24,59 @@
     <form>
         <div class="grid">
           <div class="row">
-            <div class="col col-4">
-              <legend>Persónuupplýsingar</legend>
-              <div class="field">
-                <label for="Nafn">Nafn:</label>
-                <input id="nafn" type="text" name="nafn"></input>
-              </div>
+            <div class="offset-1 col col-5 col-sm-12">
 
-              <div class="field">
-                <label for="Kennitala">Kennitala:</label>
-                <input id="kennitala" type="text"  name="kennitala"></input>
-              </div>
-
-              <div class="field">
-                <label>Kyn:</label>
-
-                <div class="kyn">
-
-                <div class="kyn1">
-                <input id="kyn" type="radio" name="radio"> Kona</input>
+                <legend>Persónuupplýsingar</legend>
+                <div class="field">
+                  <label for="Nafn">Nafn:</label>
+                  <input id="textbox" type="text" name="nafn"></input>
                 </div>
 
-                <div class="kyn2">
-                <input id="kyn" type="radio" name="radio"> Karl</input>
+                <div class="field">
+                  <label for="Kennitala">Kennitala:</label>
+                  <input id="textbox" type="text"  name="kennitala" placeholder="123456-7890"></input>
                 </div>
 
-                <div class="kyn3">
-                <input id="kyn" type="radio" name="radio"> Annað</input>
+                <div class="field">
+                  <label>Kyn:</label>
+
+                  <div class="kyn">
+
+                  <div class="kyn1">
+                  <input id="kyn" type="radio" name="radio"> Kona</input>
+                  </div>
+
+                  <div class="kyn2">
+                  <input id="kyn" type="radio" name="radio"> Karl</input>
+                  </div>
+
+                  <div class="kyn3">
+                  <input id="kyn" type="radio" name="radio"> Annað</input>
+                  </div>
+
+                  </div>
                 </div>
 
+                <div class="field">
+                  <label for="Simi">Sími:</label>
+                  <input id="textbox" type="text" name="simi" placeholder="+354 812 3456"></input>
                 </div>
-              </div>
 
-              <div class="field">
-                <label for="Simi">Sími:</label>
-                <input id="simi" type="text"  name="simi"></input>
-              </div>
+                <div class="field">
+                  <label for="Heimilisfang">Heimilisfang:</label>
+                  <input id="textbox" type="text"  name="heimilisfang"></input>
+                </div>
 
-              <div class="field">
-                <label for="Heimilisfang">Heimilisfang:</label>
-                <input id="heimilisfang" type="text"  name="heimilisfang"></input>
-              </div>
+                <div>
+                  <input id="checkbox" type="checkbox" checked> Skrá mig á póstlista</input>
+                </div>
+          </div>
 
-              <div>
-                <input id="checkbox" type="checkbox" checked> Skrá mig á póstlista</input>
-              </div>
-            </div>
-
-            <div class="col col-4">
+            <div class="offset-1 col col-4 col-sm-12">
               <legend>Greiðsluupplýsingar</legend>
               <div class="field">
                 <label>Greiða með:</label>
-                <select name="tegund">
+                <select name="tegund" id="textbox">
                   <option value="kreditkorti">Kreditkorti</option>
                   <option value="millifærslu">Millifærslu</option>
                   <option value="reiðufé">Reiðufé</option>
@@ -83,46 +85,52 @@
 
               <div class="field">
                 <label for="Kortanafn">Nafn á korti:</label>
-                <input id="kortanafn" type="text"  name="kortanafn"></input>
+                <input id="textbox" type="text"  name="kortanafn"></input>
               </div>
 
               <div class="field">
                 <label for="Kortanumer">Kortanúmer:</label>
-                <input id="kortanumer" type="text"  name="kortanumer"></input>
+                <input id="textbox" type="text" name="kortanumer" placeholder="5999-9999-9999-9999"></input>
               </div>
 
               <div class="field">
-                <label>Gildistími:</label>
-                <label>Mán</label>
-                <select name="manudur">
-                    <option value="januar">01</option>
-                    <option value="februar">02</option>
-                    <option value="mars">03</option>
-                    <option value="april">04</option>
-                    <option value="mai">05</option>
-                    <option value="juni">06</option>
-                    <option value="juli">07</option>
-                    <option value="agust">08</option>
-                    <option value="september">09</option>
-                    <option value="oktober">10</option>
-                    <option value="november">11</option>
-                    <option value="desember">12</option>
-                  </select>
+                  <label>Gildistími:</label>
+                    <div class="date">
+                      <label>Mán
+                        <select name="manudur">
+                            <option value="januar">01</option>
+                            <option value="februar">02</option>
+                            <option value="mars">03</option>
+                            <option value="april">04</option>
+                            <option value="mai">05</option>
+                            <option value="juni">06</option>
+                            <option value="juli">07</option>
+                            <option value="agust">08</option>
+                            <option value="september">09</option>
+                            <option value="oktober">10</option>
+                            <option value="november">11</option>
+                            <option value="desember">12</option>
+                          </select>
+                      </label>
 
-                <label>Ár</label>
-                  <select name="ar">
-                    <option value="2017">2017</option>
-                    <option value="2018">2018</option>
-                    <option value="2019">2019</option>
-                    <option value="2020">2020</option>
-                  </select>
+                      <label>Ár
+                        <select name="ar">
+                          <option value="2017">2017</option>
+                          <option value="2018">2018</option>
+                          <option value="2019">2019</option>
+                          <option value="2020">2020</option>
+                        </select>
+                      </label>
+                  </div>
               </div>
             </div>
           </div>
 
           <div class="row">
-            <div class="col col-4">
-              <input type="submit" value="Panta">
+            <div class="col col-12">
+              <div class="submit_button">
+                <input type="submit" class="button" value="Panta">
+              </div>
             </div>
           </div>
         </div>

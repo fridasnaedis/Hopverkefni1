@@ -60,12 +60,39 @@ label {
   display: block;
 }
 
+.col-5 {
+  width: 41.666667%
+}
+
+.col-2 {
+  width: 16.6666667%;
+}
+
+.offset-1 {
+  margin-left: 8.333333%
+}
+
 .field {
   margin-bottom: 20px;
 }
 
+@media (max-width: 399px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
 legend {
   font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#textbox {
+  width: 100%;
+}
+
+.submit_button {
+    text-align: center;
 }
 
 .kyn {
@@ -79,9 +106,15 @@ legend {
 .kyn2 {
   display: row;
 }
+
 .kyn3 {
   display: row;
 }
+
+.date label{
+  display: inline-block;
+}
+
 
 @import "scss/grid";
 @import "scss/header";
