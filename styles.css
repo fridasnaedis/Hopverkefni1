@@ -45,22 +45,11 @@ main {
 label {
   display: block; }
 
-.col-5 {
-  width: 41.666667%; }
-
-.offset-1 {
-  margin-left: 8.333333%; }
-
 .field {
   margin-bottom: 20px; }
 
-@media (max-width: 399px) {
-  .col-sm-12 {
-    width: 100%; } }
-
 legend {
-  font-size: 2rem;
-  margin-bottom: 20px; }
+  font-size: 2rem; }
 
 .kyn {
   display: column; }
@@ -74,8 +63,8 @@ legend {
 .kyn3 {
   display: row; }
 
-.date label {
-  display: inline-block; }
+.date {
+  display: row; }
 
 .row {
   display: flex;

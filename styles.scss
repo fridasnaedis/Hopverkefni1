@@ -21,7 +21,6 @@ html { /* stylelint-disable-line */
   // ruglar líka ekki í grid overlay
   margin-right: $gutter;
   margin-left: $gutter;
-
   font-family: Open Sans, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -60,27 +59,12 @@ label {
   display: block;
 }
 
-.col-5 {
-  width: 41.666667%
-}
-
-.offset-1 {
-  margin-left: 8.333333%
-}
-
 .field {
   margin-bottom: 20px;
 }
 
-@media (max-width: 399px) {
-  .col-sm-12 {
-    width: 100%;
-  }
-}
-
 legend {
   font-size: 2rem;
-  margin-bottom: 20px;
 }
 
 .kyn {
@@ -99,10 +83,9 @@ legend {
   display: row;
 }
 
-.date label{
-  display: inline-block;
+.date {
+  display: row;
 }
-
 
 @import "scss/grid";
 @import "scss/header";
