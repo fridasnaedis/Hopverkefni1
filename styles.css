@@ -103,7 +103,9 @@ main {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: -20px;
+  margin-right: -20px; }
   .header__index .text1 {
     opacity: 0;
     animation: fadeIn ease-in 1;
@@ -131,7 +133,14 @@ main {
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: -20px;
+  margin-right: -20px; }
+
+@media (min-width: 1200px) {
+  .header__rest, .header__index {
+    margin-left: 0px;
+    margin-right: 0px; } }
 
 @-webkit-keyframes fadeIn {
   0% {
@@ -369,6 +378,13 @@ main {
 
 .box {
   background-color: #333;
+  margin-left: -20px;
+  margin-right: -20px;
   left: 0;
   right: 0;
   bottom: 0; }
+
+@media (min-width: 1200px) {
+  .box {
+    margin-left: 0px;
+    margin-right: 0px; } }

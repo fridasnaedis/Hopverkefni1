@@ -16,6 +16,8 @@
     background-attachment: fixed;
     text-align: center;
     justify-content: center;
+		margin-left: -20px;
+		margin-right: -20px;
 
 
     .text1{
@@ -50,6 +52,15 @@
     background-size: cover;
     background-attachment: fixed;
     justify-content: center;
+		margin-left: -20px;
+		margin-right: -20px;
+}
+
+@media (min-width: 1200px){
+	.header__rest,.header__index{
+			margin-left: 0px;
+			margin-right: 0px;
+	}
 }
 
 @-webkit-keyframes fadeIn {
