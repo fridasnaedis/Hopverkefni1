@@ -40,7 +40,6 @@ main {
   /* stylelint-disable-line */
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 220px;
   overflow-x: hidden; }
 
 .row {
@@ -104,9 +103,7 @@ main {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  justify-content: center;
-  margin-left: -20px;
-  margin-right: -20px; }
+  justify-content: center; }
   .header__index .text1 {
     opacity: 0;
     animation: fadeIn ease-in 1;
@@ -134,9 +131,7 @@ main {
   background-position: 50% 50%;
   background-size: cover;
   background-attachment: fixed;
-  justify-content: center;
-  margin-left: -20px;
-  margin-right: -20px; }
+  justify-content: center; }
 
 @-webkit-keyframes fadeIn {
   0% {
@@ -374,9 +369,6 @@ main {
 
 .box {
   background-color: #333;
-  position: absolute;
-  margin-left: -20px;
-  margin-right: -20px;
   left: 0;
   right: 0;
   bottom: 0; }

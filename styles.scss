@@ -49,7 +49,6 @@ img { /* stylelint-disable-line */
 main { /* stylelint-disable-line */
   max-width: $max-width;
   margin: 0 auto;
-  padding-bottom: 220px;
 
   // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku
