@@ -73,6 +73,13 @@ main {
       width: 50%; }
     .col-sm-3 {
       width: 25%; } }
+  @media (max-width: 599px) {
+    .col-mm-12 {
+      width: 100%; }
+    .col-mm-6 {
+      width: 50%; }
+    .col-mm-3 {
+      width: 25%; } }
 
 .offset-1 {
   margin-left: 8.33333%; }
@@ -85,6 +92,10 @@ main {
 
 @media (max-width: 399px) {
   .offset-sm-0 {
+    margin-left: 0; } }
+
+@media (max-width: 599px) {
+  .offset-mm-0 {
     margin-left: 0; } }
 
 /*.header {
