@@ -225,7 +225,20 @@ main {
     border-color: #eee; }
   .button .__wrapper {
     display: flex;
-    justify-content: center; }
+    flex-direction: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10em; }
+  .button .a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10em; }
 
 .card {
   width: 100%;
