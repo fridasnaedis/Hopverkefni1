@@ -223,6 +223,9 @@ main {
     color: #999;
     background-color: #eee;
     border-color: #eee; }
+  .button .__wrapper {
+    display: flex;
+    justify-content: center; }
 
 .card {
   width: 100%;
