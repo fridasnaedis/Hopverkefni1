@@ -354,24 +354,45 @@ main {
 .form #textabox_2 {
   width: 100%; }
 
+.form #month {
+  width: 100px; }
+
+.form #month option {
+  width: 50px; }
+
+.form #year {
+  width: 100px; }
+
+.form #year option {
+  width: 50px; }
+
 .form .submit_button {
   text-align: center; }
+
+.form .months {
+  padding-right: 50px; }
+
+.form .years {
+  padding-right: 50px; }
 
 .form .kyn {
   display: column; }
 
 .form .kyn1 {
-  display: row; }
+  display: row;
+  padding-bottom: 5px; }
 
 .form .kyn2 {
-  display: row; }
+  display: row;
+  padding-bottom: 5px; }
 
 .form .kyn3 {
   display: row; }
 
 .form .date {
   display: flex;
-  color: red; }
+  color: red;
+  padding-right: 10px; }
 
 .footer {
   display: inline;
