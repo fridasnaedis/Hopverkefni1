@@ -108,7 +108,7 @@ main {
 .header__index {
   display: flex;
   flex-direction: column;
-  height: 30em;
+  height: 50em;
   background-image: url(img/resources/bg.jpg);
   background-position: 50% 50%;
   background-size: cover;
@@ -116,19 +116,8 @@ main {
   text-align: center;
   justify-content: center;
   margin-left: -20px;
-  margin-right: -20px; }
-  .header__index .text1 {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 1s; }
-  .header__index .text2 {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-    animation-delay: 2s; }
+  margin-right: -20px;
+  margin-bottom: 10em; }
   .header__index .button__header {
     opacity: 0;
     animation: fadeIn ease-in 1;
@@ -171,25 +160,35 @@ main {
   .heading--one {
     font-size: 3rem; }
   .heading--two {
-    font-size: 2rem; }
+    font-size: 2rem;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 2s; }
   .heading--three {
-    font-size: 1rem; }
+    font-size: 1rem;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1s; }
 
 .heading .rest {
   padding-left: 24px;
   color: #fff; }
 
 .text__p {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-align: center; }
 
 .text blockquote {
-  margin: 1em 0 1em 1em;
-  font-size: 1.5em;
+  margin: 1em 0 1em 2em;
+  font-size: 2em;
   line-height: 1.5;
   font-style: italic; }
   .text blockquote .author {
-    padding: 20px;
-    font-size: 0.7em;
+    font-size: 0.5em;
     font-style: normal; }
 
 .button {
