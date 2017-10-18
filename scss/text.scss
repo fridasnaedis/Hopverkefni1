@@ -1,15 +1,15 @@
 .text {
   &__p {
-    margin-bottom: $gutter;
+    margin-bottom: 20px;
+    text-align: center;
   }
   blockquote {
-  margin: 1em 0 1em 1em;
-  font-size: 1.5em;
+  margin: 1em 0 1em 2em;
+  font-size: 2em;
   line-height: 1.5;
   font-style: italic;
   	.author {
-  		padding: $gutter;
-  		font-size: 0.7em;
+  		font-size: 0.5em;
   		font-style: normal;
   	}
   }
