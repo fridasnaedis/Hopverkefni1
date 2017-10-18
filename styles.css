@@ -348,7 +348,10 @@ main {
     font-size: 1em;
     font-weight: bold; } }
 
-.form #textbox {
+.form #textabox {
+  width: 100%; }
+
+.form #textabox_2 {
   width: 100%; }
 
 .form .submit_button {
