@@ -40,7 +40,6 @@ main {
   /* stylelint-disable-line */
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 220px;
   overflow-x: hidden; }
 
 .row {
@@ -74,6 +73,13 @@ main {
       width: 50%; }
     .col-sm-3 {
       width: 25%; } }
+  @media (max-width: 599px) {
+    .col-mm-12 {
+      width: 100%; }
+    .col-mm-6 {
+      width: 50%; }
+    .col-mm-3 {
+      width: 25%; } }
 
 .offset-1 {
   margin-left: 8.33333%; }
@@ -88,6 +94,10 @@ main {
   .offset-sm-0 {
     margin-left: 0; } }
 
+@media (max-width: 599px) {
+  .offset-mm-0 {
+    margin-left: 0; } }
+
 /*.header {
   display: flex;
   max-width: $max-width;
@@ -98,7 +108,7 @@ main {
 .header__index {
   display: flex;
   flex-direction: column;
-  height: 30em;
+  height: 50em;
   background-image: url(img/resources/bg.jpg);
   background-position: 50% 50%;
   background-size: cover;
@@ -106,19 +116,8 @@ main {
   text-align: center;
   justify-content: center;
   margin-left: -20px;
-  margin-right: -20px; }
-  .header__index .text1 {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 1s; }
-  .header__index .text2 {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-    animation-delay: 2s; }
+  margin-right: -20px;
+  margin-bottom: 10em; }
   .header__index .button__header {
     opacity: 0;
     animation: fadeIn ease-in 1;
@@ -138,6 +137,11 @@ main {
   margin-left: -20px;
   margin-right: -20px; }
 
+@media (min-width: 1200px) {
+  .header__rest, .header__index {
+    margin-left: 0px;
+    margin-right: 0px; } }
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -156,25 +160,35 @@ main {
   .heading--one {
     font-size: 3rem; }
   .heading--two {
-    font-size: 2rem; }
+    font-size: 2rem;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 2s; }
   .heading--three {
-    font-size: 1rem; }
+    font-size: 1rem;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1s; }
 
 .heading .rest {
   padding-left: 24px;
   color: #fff; }
 
 .text__p {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-align: center; }
 
 .text blockquote {
-  margin: 1em 0 1em 1em;
-  font-size: 1.5em;
+  margin: 1em 0 1em 2em;
+  font-size: 2em;
   line-height: 1.5;
   font-style: italic; }
   .text blockquote .author {
-    padding: 20px;
-    font-size: 0.7em;
+    font-size: 0.5em;
     font-style: normal; }
 
 .button {
@@ -270,41 +284,45 @@ main {
 
 .navbar {
   line-height: 2.5rem;
-  list-style-type: none; }
+  list-style-type: none;
+  max-width: 1200px;
+  margin: auto; }
   .navbar a {
     float: right;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 1rem;
     text-decoration: none;
     color: white; }
-  .navbar .row {
-    max-width: 1200px;
-    margin: auto; }
   .navbar li:first-child {
     float: left; }
-  .navbar button {
+  .navbar #kaupa-button {
+    width: auto;
     display: none;
     padding: 5px;
     margin-top: 5px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    line-height: normal;
+    margin-left: 0px; }
   @media (min-width: 400px) {
-    .navbar button {
+    .navbar #kaupa-button {
       display: inline; } }
   @media (min-width: 1200px) {
     .navbar a {
-      margin-left: -10px;
-      margin-right: -10px; }
-    .navbar .um {
-      margin-right: 80px; } }
+      margin-left: 0px;
+      margin-right: 0px; }
+    .navbar #kaupa-button {
+      margin-left: 20px; } }
 
 .nav {
   position: fixed;
+  z-index: 999;
   background-color: #333;
   opacity: 0.8;
   top: 0;
   left: 0;
-  right: 0; }
+  right: 0;
+  height: 2.5rem; }
 
 .form label {
   display: block; }
@@ -329,27 +347,51 @@ main {
     font-size: 1em;
     font-weight: bold; } }
 
-.form #textbox {
+.form #textabox {
   width: 100%; }
+
+.form #textabox_2 {
+  width: 100%; }
+
+.form #month {
+  width: 100px; }
+
+.form #month option {
+  width: 50px; }
+
+.form #year {
+  width: 100px; }
+
+.form #year option {
+  width: 50px; }
 
 .form .submit_button {
   text-align: center; }
+
+.form .months {
+  padding-right: 50px; }
+
+.form .years {
+  padding-right: 50px; }
 
 .form .kyn {
   display: column; }
 
 .form .kyn1 {
-  display: row; }
+  display: row;
+  padding-bottom: 5px; }
 
 .form .kyn2 {
-  display: row; }
+  display: row;
+  padding-bottom: 5px; }
 
 .form .kyn3 {
   display: row; }
 
 .form .date {
   display: flex;
-  color: red; }
+  color: red;
+  padding-right: 10px; }
 
 .footer {
   display: inline;
@@ -374,9 +416,13 @@ main {
 
 .box {
   background-color: #333;
-  position: absolute;
   margin-left: -20px;
   margin-right: -20px;
   left: 0;
   right: 0;
   bottom: 0; }
+
+@media (min-width: 1200px) {
+  .box {
+    margin-left: 0px;
+    margin-right: 0px; } }

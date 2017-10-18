@@ -30,12 +30,40 @@
 		}
 	}
 
-	#textbox {
+	#textabox {
 	  width: 100%;
+	}
+
+	#textabox_2 {
+	  width: 100%;
+	}
+
+	#month {
+		width: 100px;
+	}
+
+	#month option {
+		width: 50px;
+	}
+
+	#year {
+		width: 100px;
+	}
+
+	#year option {
+		width: 50px;
 	}
 
 	.submit_button {
 	    text-align: center;
+	}
+
+	.months {
+		padding-right: 50px;
+	}
+
+	.years {
+		padding-right: 50px;
 	}
 
 	.kyn {
@@ -44,10 +72,12 @@
 
 	.kyn1 {
 	  display: row;
+		padding-bottom: 5px;
 	}
 
 	.kyn2 {
 	  display: row;
+		padding-bottom: 5px;
 	}
 
 	.kyn3 {
@@ -57,5 +87,7 @@
 	.date {
 		display: flex;
 		color: red;
+		padding-right: 10px;
 	}
+
 }

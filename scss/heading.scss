@@ -17,10 +17,20 @@
 
   &--two {
     font-size: 2rem;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-delay: 2s;
   }
 
   &--three {
     font-size: 1rem;
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1s;
   }
 }
 
