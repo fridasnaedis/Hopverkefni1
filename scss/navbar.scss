@@ -1,55 +1,58 @@
 .navbar {
-	line-height: 2.5rem;
-	list-style-type: none;
-	max-width: 1200px;
-	margin:auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  line-height: 2.5rem;
+  list-style-type: none;
 
-	a {
-		float: right;
-		margin-left: 20px;
-		margin-right: 20px;
-		font-size: 1rem;
-		text-decoration: none;
-		color: white;
-	}
+  a {
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
 
-	li:first-child {
-		float: left;
-	}
+  li:first-child {
+    float: left;
+  }
 
-	#kaupa-button {
-		width: auto;
-		display: none;
-		padding: 5px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-		line-height: normal;
-		margin-left: 0px
-	}
-	@media (min-width: 400px) {
-		#kaupa-button {
-			display: inline;
-		}
-	}
-	@media (min-width: 1200px) {
-		a {
-			margin-left: 0px;
-			margin-right: 0px;
-		}
+  #kaupa-button {
+    display: none;
+    width: auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    line-height: normal;
+  }
 
-		#kaupa-button {
-			margin-left: 20px;
-		}
-	}
+  @media (min-width: 400px) {
+    #kaupa-button {
+      display: inline;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    a {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    #kaupa-button {
+      margin-left: 20px;
+    }
+  }
 }
 
 .nav {
-	position: fixed;
-	z-index: 999;
-	background-color: #333;
-	opacity: 0.8;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 2.5rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  height: 2.5rem;
+  background-color: #333;
+  opacity: 0.8;
 }
