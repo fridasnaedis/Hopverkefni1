@@ -20,7 +20,9 @@ What things you need to install the software and how to install them
 Opnað er Terminal /  Command Prompt og keyrt þessar skipanir:
 
 .> npm install -g browser-sync --save-dev
+
 .> npm install --save node-sass
+
 .> npm install --save-dev npm-run-all
 
 ```
