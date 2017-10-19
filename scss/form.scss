@@ -13,9 +13,9 @@
   .upplys {
     font-size: 1.5em;
     font-weight: bold;
-    -webkit-transition: font-size 4s;
-    margin-bottom: $gutter;
     margin-top: 30px;
+    margin-bottom: $gutter;
+    -webkit-transition: font-size 4s;
   }
 
   @media (max-width: 799px) {
@@ -88,7 +88,6 @@
 
   .date {
     display: flex;
-    color: red;
     padding-right: 10px;
   }
 }

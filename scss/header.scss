@@ -2,41 +2,38 @@
 
 .header__index {
   display: flex;
-  flex-direction: column;
   height: 50em;
-  background-image: url(img/resources/bg.jpg);
-  background-position: 50% 50%;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  justify-content: center;
-  margin-left: -$gutter;
   margin-right: -$gutter;
   margin-bottom: 10em;
-
+  margin-left: -$gutter;
+  text-align: center;
+  flex-direction: column;
+  background-image: url("img/resources/bg.jpg");
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  justify-content: center;
 
   .button__header {
     opacity: 0;
     animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
     animation-delay: 4s;
   }
 }
 
 .header__rest {
   display: flex;
-  flex-direction: column;
   height: 30em;
-  background-image: url(img/resources/bg-subpage.jpg);
-  background-position: 50% 50%;
-  background-size: cover;
-  background-position: left;
-  justify-content: center;
-  margin-left: -$gutter;
-  ;
   margin-right: -$gutter;
-  ;
+  margin-left: -$gutter;
+  flex-direction: column;
+  background-image: url("img/resources/bg-subpage.jpg");
+  background-position: left;
+  background-size: cover;
+  justify-content: center;
+  
 }
 
 @media (min-width: $max-width) {
@@ -53,5 +50,6 @@
   }
   100% {
     opacity: 1;
+
   }
 }
