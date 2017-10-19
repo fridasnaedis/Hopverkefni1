@@ -1,93 +1,86 @@
 .form {
+  label {
+    display: block;
+  }
 
-	label {
-	  display: block;
-	}
+  .field {
+    margin-bottom: 20px;
+  }
 
-	.field {
-	  margin-bottom: 20px;
-	}
+  .upplys {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: font-size 4s;
+  }
 
-	.upplys {
-	  font-size: 1.5em;
-		font-weight: bold;
-		-webkit-transition: font-size 4s;
-	  margin-bottom: 20px;
-		margin-top: 30px;
-	}
+  @media (max-width: 799px) {
+    .upplys {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
 
-	@media (max-width: 799px) {
-		.upplys {
-			font-size: 1.2em;
-			font-weight: bold;
-		}
-	}
+  @media (max-width: 599px) {
+    .upplys {
+      font-size: 1em;
+      font-weight: bold;
+    }
+  }
 
-	@media (max-width: 599px) {
-		.upplys {
-			font-size: 1em;
-			font-weight: bold;
-		}
-	}
+  #textabox {
+    width: 100%;
+  }
 
-	#textabox {
-	  width: 100%;
-	}
+  #month {
+    width: 100px;
+  }
 
-	#textabox_2 {
-	  width: 100%;
-	}
+  #month option {
+    width: 50px;
+  }
 
-	#month {
-		width: 100px;
-	}
+  #year {
+    width: 100px;
+  }
 
-	#month option {
-		width: 50px;
-	}
+  #year option {
+    width: 50px;
+  }
 
-	#year {
-		width: 100px;
-	}
+  .submit_button {
+    text-align: center;
+  }
 
-	#year option {
-		width: 50px;
-	}
+  .months {
+    padding-right: 50px;
+  }
 
-	.submit_button {
-	    text-align: center;
-	}
+  .years {
+    padding-right: 50px;
+  }
 
-	.months {
-		padding-right: 50px;
-	}
+  .kyn {
+    display: column;
+  }
 
-	.years {
-		padding-right: 50px;
-	}
+  .kyn1 {
+    display: row;
+    padding-bottom: 5px;
+  }
 
-	.kyn {
-	  display: column;
-	}
+  .kyn2 {
+    display: row;
+    padding-bottom: 5px;
+  }
 
-	.kyn1 {
-	  display: row;
-		padding-bottom: 5px;
-	}
+  .kyn3 {
+    display: row;
+  }
 
-	.kyn2 {
-	  display: row;
-		padding-bottom: 5px;
-	}
-
-	.kyn3 {
-	  display: row;
-	}
-
-	.date {
-		display: flex;
-		color: red;
-		padding-right: 10px;
-	}
-
+  .date {
+    display: flex;
+    padding-right: 10px;
+  }
 }
