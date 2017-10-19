@@ -361,11 +361,11 @@ main {
   margin-bottom: 20px; }
 
 .form .upplys {
+  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 1.5em;
   font-weight: bold;
-  -webkit-transition: font-size 4s;
-  margin-bottom: 20px;
-  margin-top: 30px; }
+  transition: font-size 4s; }
 
 @media (max-width: 799px) {
   .form .upplys {
@@ -378,9 +378,6 @@ main {
     font-weight: bold; } }
 
 .form #textabox {
-  width: 100%; }
-
-.form #textabox_2 {
   width: 100%; }
 
 .form #month {
@@ -420,7 +417,6 @@ main {
 
 .form .date {
   display: flex;
-  color: red;
   padding-right: 10px; }
 
 .footer {
