@@ -132,6 +132,7 @@ main {
   background-image: url(img/resources/bg-subpage.jpg);
   background-position: 50% 50%;
   background-size: cover;
+  background-position: left;
   justify-content: center;
   margin-left: -20px;
   margin-right: -20px; }
@@ -361,11 +362,11 @@ main {
   margin-bottom: 20px; }
 
 .form .upplys {
-  margin-top: 30px;
-  margin-bottom: 20px;
   font-size: 1.5em;
   font-weight: bold;
-  transition: font-size 4s; }
+  -webkit-transition: font-size 4s;
+  margin-bottom: 20px;
+  margin-top: 30px; }
 
 @media (max-width: 799px) {
   .form .upplys {
@@ -378,6 +379,9 @@ main {
     font-weight: bold; } }
 
 .form #textabox {
+  width: 100%; }
+
+.form #textabox_2 {
   width: 100%; }
 
 .form #month {
@@ -417,6 +421,7 @@ main {
 
 .form .date {
   display: flex;
+  color: red;
   padding-right: 10px; }
 
 .footer {
