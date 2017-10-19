@@ -281,11 +281,10 @@ main {
     margin-top: 20px;
     font-size: 2rem; }
   .button__footer {
-    text-align: center;
-    align: center;
     width: auto;
     padding: 10px 80px;
-    font-size: 2rem; }
+    font-size: 2rem;
+    text-align: center; }
 
 .card {
   width: 100%;
