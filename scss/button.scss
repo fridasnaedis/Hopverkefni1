@@ -65,21 +65,16 @@
   }
 
   &__header {
-
     width: auto;
     padding: 10px $gutter;
     margin-top: $gutter;
     font-size: 2rem;
   }
 
-  &__footer{
-
-    text-align: center;
-    align: center;
+  &__footer {
     width: auto;
     padding: 10px 80px;
     font-size: 2rem;
-
+    text-align: center;
   }
-
 }
