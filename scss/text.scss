@@ -18,12 +18,11 @@
     }
 
     &__profile {
-      font-size: 1.5rem;
-      font-style: normal;
-      font-weight: bold;
-      font-style: italic;
-      text-align: center;
       margin-top: 10px;
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: bold;
+      text-align: center;
     }
   }
 
@@ -48,13 +47,13 @@
     justify-content: center;
 
     &__texti {
+      font-family: "Roboto Slab", georgia, serif;
       font-size: 1.5rem;
-      font-family: Roboto Slab;
     }
   }
 
   &__index {
-    margin-bottom: 80px;
     margin-top: 40px;
+    margin-bottom: 80px;    
   }
 }
