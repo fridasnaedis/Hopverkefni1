@@ -381,18 +381,18 @@ main {
   background-color: #333;
   opacity: 0.8; }
 
-.form label {
+.form .field label {
   display: block; }
 
 .form .field {
   margin-bottom: 20px; }
 
 .form .upplys {
+  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 1.5em;
   font-weight: bold;
-  -webkit-transition: font-size 4s;
-  margin-bottom: 20px;
-  margin-top: 30px; }
+  transition: font-size 4s; }
 
 @media (max-width: 799px) {
   .form .upplys {
@@ -404,22 +404,19 @@ main {
     font-size: 1em;
     font-weight: bold; } }
 
-.form #textabox {
+.form .textabox {
   width: 100%; }
 
-.form #textabox_2 {
-  width: 100%; }
-
-.form #month {
+.form .month {
   width: 100px; }
 
-.form #month option {
+.form .month option {
   width: 50px; }
 
-.form #year {
+.form .year {
   width: 100px; }
 
-.form #year option {
+.form .year option {
   width: 50px; }
 
 .form .submit_button {
@@ -447,7 +444,6 @@ main {
 
 .form .date {
   display: flex;
-  color: red;
   padding-right: 10px; }
 
 .footer {

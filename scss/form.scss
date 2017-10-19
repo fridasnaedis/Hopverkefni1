@@ -1,8 +1,7 @@
 @import "scss/config";
 
 .form {
-
-  label {
+  .field label {
     display: block;
   }
 
@@ -11,11 +10,11 @@
   }
 
   .upplys {
+    margin-top: 30px;
+    margin-bottom: $gutter;
     font-size: 1.5em;
     font-weight: bold;
-    -webkit-transition: font-size 4s;
-    margin-bottom: $gutter;
-    margin-top: 30px;
+    transition: font-size 4s;
   }
 
   @media (max-width: 799px) {
@@ -32,27 +31,23 @@
     }
   }
 
-  #textabox {
+  .textabox {
     width: 100%;
   }
 
-  #textabox_2 {
-    width: 100%;
-  }
-
-  #month {
+  .month {
     width: 100px;
   }
 
-  #month option {
+  .month option {
     width: 50px;
   }
 
-  #year {
+  .year {
     width: 100px;
   }
 
-  #year option {
+  .year option {
     width: 50px;
   }
 
@@ -88,7 +83,6 @@
 
   .date {
     display: flex;
-    color: red;
     padding-right: 10px;
   }
 }
