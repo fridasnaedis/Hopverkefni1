@@ -132,7 +132,6 @@ main {
   background-image: url(img/resources/bg-subpage.jpg);
   background-position: 50% 50%;
   background-size: cover;
-  background-attachment: fixed;
   justify-content: center;
   margin-left: -20px;
   margin-right: -20px; }
