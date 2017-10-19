@@ -1,18 +1,18 @@
 .text {
   &__p {
     margin-bottom: 20px;
-    text-align: center;
   }
 
-  blockquote {
-  margin: 1em 0 1em 2em;
-  font-size: 2em;
-  line-height: 1.5;
-  font-style: italic;
-  	.author {
-  		font-size: 0.5em;
-  		font-style: normal;
-  	}
+  .quote {
+    margin: 1em 0 1em 2em;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 1.5;
+
+    &__author {
+      font-size: 0.5em;
+      font-style: normal;
+    }
   }
 
 }
