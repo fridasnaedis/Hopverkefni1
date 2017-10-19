@@ -1,18 +1,68 @@
-.text__p {
+.form label {
+  display: block; }
+
+.form .field {
   margin-bottom: 20px; }
 
-.text .quote {
-  margin: 20px;
-  font-size: 2em;
-  font-style: italic;
-  line-height: 1.5; }
-  .text .quote__author {
-    font-size: 0.5em;
-    font-style: normal; }
+.form .upplys {
+  font-size: 1.5em;
+  font-weight: bold;
+  -webkit-transition: font-size 4s;
+  margin-bottom: 20px;
+  margin-top: 30px; }
 
-.text__bottom {
+@media (max-width: 799px) {
+  .form .upplys {
+    font-size: 1.2em;
+    font-weight: bold; } }
+
+@media (max-width: 599px) {
+  .form .upplys {
+    font-size: 1em;
+    font-weight: bold; } }
+
+.form #textabox {
+  width: 100%; }
+
+.form #textabox_2 {
+  width: 100%; }
+
+.form #month {
+  width: 100px; }
+
+.form #month option {
+  width: 50px; }
+
+.form #year {
+  width: 100px; }
+
+.form #year option {
+  width: 50px; }
+
+.form .submit_button {
+  text-align: center; }
+
+.form .months {
+  padding-right: 50px; }
+
+.form .years {
+  padding-right: 50px; }
+
+.form .kyn {
+  display: column; }
+
+.form .kyn1 {
+  display: row;
+  padding-bottom: 5px; }
+
+.form .kyn2 {
+  display: row;
+  padding-bottom: 5px; }
+
+.form .kyn3 {
+  display: row; }
+
+.form .date {
   display: flex;
-  justify-content: center; }
-  .text__bottom__texti {
-    font-size: 1.5rem;
-    font-family: Roboto Slab; }
+  color: red;
+  padding-right: 10px; }
