@@ -1,3 +1,5 @@
+@import "scss/config";
+
 .form {
 
 	label {
@@ -5,14 +7,14 @@
 	}
 
 	.field {
-	  margin-bottom: 20px;
+	  margin-bottom: $gutter;
 	}
 
 	.upplys {
 	  font-size: 1.5em;
 		font-weight: bold;
 		-webkit-transition: font-size 4s;
-	  margin-bottom: 20px;
+	  margin-bottom: $gutter;
 		margin-top: 30px;
 	}
 
