@@ -10,14 +10,15 @@
 
   &__col {
     // höfum aðgang að mixin hér þar sem grid var importað á undan í styles.scss
-    @include columns(12);
+    // @include columns(12);
     display: flex;
     padding-right: 10px;
     padding-left: 10px;
     margin: 0 0 $gutter;
 
     @media (min-width: 600px) {
-      @include columns(6);
+      // @include columns(6);
+      
       margin-right: 0;
       margin-left: 0;
     }

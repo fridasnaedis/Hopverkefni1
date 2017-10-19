@@ -34,7 +34,10 @@
   }
 
   &__text {
-    margin-bottom: 30px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   &__img {
@@ -46,7 +49,12 @@
       width: 100%;
       min-width: 10px;
       max-width: 200%;
-      padding: 50px;
+      //padding: 50px;
+      border-radius: 50%;
+    }
+
+    &__mynd {
+      margin: 20px;
     }
   }
 
