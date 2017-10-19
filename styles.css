@@ -13,8 +13,8 @@ html {
       margin: 0; } }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   /* stylelint-disable-line */
   box-sizing: inherit;
   /* fjarlægjum margin og padding */
@@ -376,7 +376,7 @@ html {
   opacity: 0.8; }
 
 .form .field label {
-  display: block; }
+  display: inline-flex; }
 
 .form .field {
   margin-bottom: 20px; }
@@ -439,7 +439,7 @@ html {
   display: row; }
 
 .form .date {
-  display: flex;
+  display: inline-flex;
   padding-right: 10px; }
 
 .footer {
