@@ -439,19 +439,11 @@ html {
 .form .years {
   padding-right: 50px; }
 
-.form .kyn {
-  display: column; }
-
 .form .kyn1 {
-  display: row;
   padding-bottom: 5px; }
 
 .form .kyn2 {
-  display: row;
   padding-bottom: 5px; }
-
-.form .kyn3 {
-  display: row; }
 
 .form .date {
   display: inline-flex;
