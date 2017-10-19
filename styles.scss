@@ -1,11 +1,19 @@
 @import "scss/config";
 
-
 /* setjum box-sizing: border-box; á allt */
 
 html {
   /* stylelint-disable-line */
   box-sizing: border-box;
+  margin-right: $gutter;
+  margin-left: $gutter;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
+  @media (min-width: $max-width) {
+    margin: 0;
+  }
 }
 
 *,
@@ -36,6 +44,7 @@ html {
 }
 
 .svg {
+  position: relative;
   display: inline-flex;
   position: relative;
   height: 30px;
@@ -48,6 +57,7 @@ main {
   max-width: $max-width;
   margin: 0 auto; // þar sem við erum að eiga við neikvæð margin á grid, setjum overflow-x
   // hér sem hidden, þá fáum við ekki lárétta skrunstiku
+  margin-bottom: (2*$gutter);
   overflow-x: hidden;
 }
 

@@ -2,7 +2,15 @@
 /* setjum box-sizing: border-box; á allt */
 html {
   /* stylelint-disable-line */
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+  @media (min-width: 1200px) {
+    html {
+      margin: 0; } }
 
 *,
 *:before,
@@ -25,6 +33,7 @@ html {
       margin: 0; } }
 
 .svg {
+  position: relative;
   display: inline-flex;
   position: relative;
   height: 30px;
@@ -35,6 +44,7 @@ main {
   /* stylelint-disable-line */
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 40px;
   overflow-x: hidden; }
 
 .row {
@@ -93,44 +103,36 @@ main {
   .offset-mm-0 {
     margin-left: 0; } }
 
-/*.header {
-  display: flex;
-  max-width: $max-width;
-  min-height: 200px;
-  margin: 0 auto $gutter;
-  align-items: center;
-}*/
 .header__index {
   display: flex;
-  flex-direction: column;
   height: 50em;
-  background-image: url(img/resources/bg.jpg);
+  margin-left: -20px;
+  margin-bottom: 200px;
+  margin-right: -20px;
+  text-align: center;
+  flex-direction: column;
+  background-image: url("img/resources/bg.jpg");
+  background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  justify-content: center;
-  margin-left: -20px;
-  margin-right: -20px;
-  margin-bottom: 200px; }
+  justify-content: center; }
   .header__index .button__header {
     opacity: 0;
     animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
     animation-delay: 4s; }
 
 .header__rest {
   display: flex;
-  flex-direction: column;
   height: 30em;
-  background-image: url(img/resources/bg-subpage.jpg);
-  background-position: 50% 50%;
-  background-size: cover;
-  background-position: left;
-  justify-content: center;
+  margin-right: -20px;
   margin-left: -20px;
-  margin-right: -20px; }
+  flex-direction: column;
+  background-image: url("img/resources/bg-subpage.jpg");
+  background-position: left;
+  background-size: cover;
+  justify-content: center; }
 
 @media (min-width: 1200px) {
   .header__rest,
@@ -146,7 +148,7 @@ main {
 
 .heading {
   width: 100%;
-  font-family: Roboto Slab, georgia, serif;
+  font-family: "Roboto Slab", georgia, serif;
   font-size: 2rem;
   border: 0; }
   @media (min-width: 1200px) {
@@ -159,15 +161,15 @@ main {
     font-size: 2rem;
     opacity: 0;
     animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
     animation-duration: 2s;
+    animation-fill-mode: forwards;
     animation-delay: 2s; }
   .heading--three {
     font-size: 1rem;
     opacity: 0;
     animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards;
     animation-duration: 1s;
+    animation-fill-mode: forwards;
     animation-delay: 1s; }
   .heading--navbar {
     font-size: 1rem;
@@ -178,13 +180,14 @@ main {
     font-size: 1.5rem; }
 
 .heading .rest {
+  margin-left: 20px;
   margin-bottom: 0;
-  padding-left: 20px;
-  word-wrap: break-word;
-  color: #fff; }
+  color: #fff;
+  word-wrap: break-word; }
   @media (min-width: 1200px) {
     .heading .rest {
-      margin: 0 auto; } }
+      margin: 0 auto;
+      max-width: 1200px; } }
 
 .text__p {
   margin-bottom: 20px; }
@@ -195,15 +198,14 @@ main {
   font-style: italic;
   line-height: 1.5; }
   .text .quote__author {
-    font-size: 0.5em;
+    font-size: 1rem;
     font-style: normal; }
   .text .quote__profile {
+    margin-top: 10px;
     font-size: 1.5rem;
-    font-style: normal;
-    font-weight: bold;
     font-style: italic;
-    text-align: center;
-    margin-top: 10px; }
+    font-weight: bold;
+    text-align: center; }
 
 .text__profiles {
   display: flex;
@@ -219,8 +221,8 @@ main {
   display: flex;
   justify-content: center; }
   .text__bottom__texti {
-    font-size: 1.5rem;
-    font-family: Roboto Slab; }
+    font-family: "Roboto Slab", georgia, serif;
+    font-size: 1.5rem; }
 
 .text__index {
   display: flex;
@@ -234,7 +236,7 @@ main {
   padding: 10px 5px;
   margin: 0;
   overflow: hidden;
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
   font-size: 1rem;
   color: #eee;
   text-align: center;
@@ -294,7 +296,7 @@ main {
   .card__heading {
     width: 100%;
     margin-bottom: 15px;
-    font-family: Roboto Slab, georgia, serif;
+    font-family: "Roboto Slab", georgia, serif;
     font-size: 1.5rem;
     word-break: break-word; }
   .card__content {
@@ -385,18 +387,18 @@ main {
   background-color: #333;
   opacity: 0.8; }
 
-.form label {
+.form .field label {
   display: block; }
 
 .form .field {
   margin-bottom: 20px; }
 
 .form .upplys {
+  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 1.5em;
   font-weight: bold;
-  -webkit-transition: font-size 4s;
-  margin-bottom: 20px;
-  margin-top: 30px; }
+  transition: font-size 4s; }
 
 @media (max-width: 799px) {
   .form .upplys {
@@ -408,22 +410,19 @@ main {
     font-size: 1em;
     font-weight: bold; } }
 
-.form #textabox {
+.form .textabox {
   width: 100%; }
 
-.form #textabox_2 {
-  width: 100%; }
-
-.form #month {
+.form .month {
   width: 100px; }
 
-.form #month option {
+.form .month option {
   width: 50px; }
 
-.form #year {
+.form .year {
   width: 100px; }
 
-.form #year option {
+.form .year option {
   width: 50px; }
 
 .form .submit_button {
@@ -451,7 +450,6 @@ main {
 
 .form .date {
   display: flex;
-  color: red;
   padding-right: 10px; }
 
 .footer {
