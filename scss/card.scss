@@ -42,19 +42,48 @@
 
   &__img {
     width: 100%;
-    min-width: 200px;
-    max-width: 100%;
 
     &__profile {
       width: 100%;
       min-width: 10px;
       max-width: 200%;
-      //padding: 50px;
       border-radius: 50%;
     }
 
     &__mynd {
       margin: 20px;
+    }
+  }
+
+  &__review {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    &__box {
+      max-width: 260px;
+    }
+  }
+  @media (min-width: 800px) {
+    &__review {
+      flex-wrap: nowrap;
+
+      &__box {
+        max-width: 400px;
+      }
+    }
+  }
+
+  @media (max-width: 560px) {
+    &__review {
+      flex-wrap: wrap;
+
+      &__box {
+        max-width: 400px;
+      }
     }
   }
 
