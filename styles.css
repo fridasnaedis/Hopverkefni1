@@ -129,7 +129,7 @@ html {
     margin-right: 0;
     margin-left: 0; } }
 
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
@@ -313,7 +313,7 @@ html {
     margin-bottom: 40px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly; }
+    justify-content: space-around; }
     .card__review__box {
       max-width: 260px; }
   @media (min-width: 800px) {
