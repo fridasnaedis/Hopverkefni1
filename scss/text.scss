@@ -6,6 +6,7 @@
   }
 
   .quote {
+    
     margin: $gutter;
     font-size: 1.5rem;
     font-style: italic;
@@ -14,6 +15,31 @@
     &__author {
       font-size: 0.5em;
       font-style: normal;
+    }
+
+    &__profile {
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: bold;
+      font-style: italic;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+  &__profiles {
+
+    display: flex;
+    justify-content: center;
+
+    &__nafn {
+      margin-top: 10px;
+      font-size: 1.5rem;
+    }
+
+    &__subscription {
+      font-size: 1rem;
+      color: #666;
     }
   }
   
@@ -26,4 +52,9 @@
         font-family: Roboto Slab;
       }
     }
+
+  &__index {
+    margin-bottom: 80px;
+    margin-top: 40px;
+  }
 }
