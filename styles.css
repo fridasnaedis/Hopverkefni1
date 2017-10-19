@@ -411,7 +411,9 @@ main {
     font-weight: bold; } }
 
 .form .textabox {
-  width: 100%; }
+  width: 100%;
+  border-radius: 3px;
+  height: 25px; }
 
 .form .month {
   width: 100px; }
