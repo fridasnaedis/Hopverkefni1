@@ -147,12 +147,15 @@ html {
   .heading--one {
     font-size: 3rem; }
   .heading--two {
-    font-size: 2rem;
+    font-size: 6vw;
     opacity: 0;
     animation: fadeIn ease-in 1;
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-delay: 2s; }
+  @media (min-width: 500px) {
+    .heading--two {
+      font-size: 2rem; } }
   .heading--three {
     font-size: 1rem;
     opacity: 0;
