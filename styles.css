@@ -116,12 +116,13 @@ main {
   background-position: 50% 50%;
   background-size: cover;
   justify-content: center; }
-  .header__index .button__header {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-delay: 4s; }
+
+.button__header {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s; }
 
 .header__rest {
   display: flex;
@@ -277,10 +278,7 @@ main {
     margin-top: 20px;
     font-size: 2rem; }
   .button__footer {
-    width: auto;
-    padding: 10px 80px;
-    font-size: 2rem;
-    text-align: center; }
+    font-size: 2rem; }
 
 .card {
   width: 100%;
@@ -310,9 +308,7 @@ main {
     flex-direction: column;
     justify-content: space-around; }
   .card__img {
-    width: 100%;
-    min-width: 200px;
-    max-width: 100%; }
+    width: 100%; }
     .card__img__profile {
       width: 100%;
       min-width: 10px;
@@ -320,6 +316,25 @@ main {
       border-radius: 50%; }
     .card__img__mynd {
       margin: 20px; }
+  .card__review {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 40px; }
+    .card__review__box {
+      max-width: 260px; }
+  @media (min-width: 800px) {
+    .card__review {
+      flex-wrap: nowrap; }
+      .card__review__box {
+        max-width: 400px; } }
+  @media (max-width: 560px) {
+    .card__review {
+      flex-wrap: wrap; }
+      .card__review__box {
+        max-width: 400px; } }
   @media (min-width: 600px) {
     .card--wide {
       display: flex; } }
