@@ -62,24 +62,22 @@
     }
   }
 
-  .__wrapper {
-     display: flex;
-     flex-direction: center;
-     justify-content: center;
-     text-align: center;
-     justify-content: center;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 10em;
+  &__header {
+
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 2rem;
   }
 
-  .a{
-      display: flex;
-     text-align: center;
-     justify-content: center;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 10em;
+  &__footer{
+
+    text-align: center;
+    align: center;
+    width: auto;
+    padding: 10px 80px;
+    font-size: 2rem;
+
   }
 
 }

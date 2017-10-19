@@ -15,4 +15,15 @@
     }
   }
 
+    &__bottom {
+      display: flex;
+      justify-content: center;
+
+      &__texti {
+        font-size: 1.5rem;
+        font-family: Roboto Slab;
+      }
+    }
+
+
 }
