@@ -64,24 +64,23 @@
     }
   }
 
-  .__wrapper {
-     display: flex;
-     flex-direction: center;
-     justify-content: center;
-     text-align: center;
-     justify-content: center;
-    margin-left: -$gutter;
-    margin-right: -$gutter;
-    margin-bottom: 10em;
+  &__header {
+
+    width: auto;
+    padding: 10px $gutter;
+    margin-top: $gutter;
+    font-size: 2rem;
   }
 
-  .a{
-      display: flex;
-     text-align: center;
-     justify-content: center;
-    margin-left: -$gutter;
-    margin-right: -$gutter;
-    margin-bottom: 10em;
+  &__footer{
+
+    text-align: center;
+    align: center;
+    width: auto;
+    padding: 10px 80px;
+    font-size: 2rem;
+
+>>>>>>> 877d447efed3a49cf1a780927314402e1b818e44
   }
 
 }
