@@ -46,12 +46,12 @@
   }
 }
 
-.heading .rest{
-    margin-bottom: 0;
-    padding-left: $gutter;
-    word-wrap: break-word;
-    color: #fff;
-    @media (min-width: $max-width) {
+.heading .rest {
+  margin-bottom: 0;
+  padding-left: $gutter;
+  word-wrap: break-word;
+  color: #fff;
+  @media (min-width: $max-width) {
     margin: 0 auto;
   }
-  }
+}

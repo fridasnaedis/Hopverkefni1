@@ -4,7 +4,9 @@ html {
   /* stylelint-disable-line */
   box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   /* stylelint-disable-line */
   box-sizing: inherit;
   /* fjarlægjum margin og padding */
@@ -138,7 +140,8 @@ main {
   margin-right: -20px; }
 
 @media (min-width: 1200px) {
-  .header__rest, .header__index {
+  .header__rest,
+  .header__index {
     margin-left: 0px;
     margin-right: 0px; } }
 

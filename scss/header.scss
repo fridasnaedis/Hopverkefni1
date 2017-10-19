@@ -1,5 +1,7 @@
 @import "scss/config";
 
+
+
 /*.header {
   display: flex;
   max-width: $max-width;
@@ -8,51 +10,60 @@
   align-items: center;
 }*/
 
-.header__index{
-	display: flex;
-    flex-direction: column;
-    height: 50em;
-    background-image: url(img/resources/bg.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    justify-content: center;
-		margin-left: -$gutter;;
-		margin-right: -$gutter;;
-		margin-bottom: 10em;
+.header__index {
+  display: flex;
+  flex-direction: column;
+  height: 50em;
+  background-image: url(img/resources/bg.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  justify-content: center;
+  margin-left: -$gutter;
+  ;
+  margin-right: -$gutter;
+  ;
+  margin-bottom: 10em;
 
 
-    .button__header{
-    	opacity: 0;
-  		animation: fadeIn ease-in 1;
-  		animation-fill-mode: forwards;
-  		animation-duration: 3s;
-  		animation-delay: 4s;
-    }
+  .button__header {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-delay: 4s;
+  }
 }
 
-.header__rest{
-    display: flex;
-    flex-direction: column;
-    height: 30em;
-    background-image: url(img/resources/bg-subpage.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
-    background-position: left;
-    justify-content: center;
-		margin-left: -$gutter;;
-		margin-right: -$gutter;;
+.header__rest {
+  display: flex;
+  flex-direction: column;
+  height: 30em;
+  background-image: url(img/resources/bg-subpage.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-position: left;
+  justify-content: center;
+  margin-left: -$gutter;
+  ;
+  margin-right: -$gutter;
+  ;
 }
 
-@media (min-width: $max-width){
-	.header__rest,.header__index{
-			margin-left: 0px;
-			margin-right: 0px;
-	}
+@media (min-width: $max-width) {
+  .header__rest,
+  .header__index {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

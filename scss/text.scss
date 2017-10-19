@@ -6,7 +6,7 @@
   }
 
   .quote {
-    
+
     margin: $gutter;
     font-size: 1.5rem;
     font-style: italic;
@@ -42,16 +42,16 @@
       color: #666;
     }
   }
-  
-    &__bottom {
-      display: flex;
-      justify-content: center;
 
-      &__texti {
-        font-size: 1.5rem;
-        font-family: Roboto Slab;
-      }
+  &__bottom {
+    display: flex;
+    justify-content: center;
+
+    &__texti {
+      font-size: 1.5rem;
+      font-family: Roboto Slab;
     }
+  }
 
   &__index {
     margin-bottom: 80px;
