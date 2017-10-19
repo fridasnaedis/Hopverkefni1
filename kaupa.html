@@ -51,11 +51,11 @@
             <div class="field">
               <p class="upplys">Persónuupplýsingar</p>
               <label for="Nafn">Nafn:</label>
-              <input class="textabox" type="text" name="nafn">
+              <input id="Nafn" class="textabox" type="text" name="nafn">
             </div>
             <div class="field">
               <label class ="label" for="Kennitala">Kennitala:</label>
-              <input class="textabox" type="text" name="kennitala" placeholder="123456-7890">
+              <input class="textabox" id="Kennitala" type="text" name="kennitala" placeholder="123456-7890">
             </div>
             <div class="field">
               <label class ="label" >Kyn:</label>
@@ -73,11 +73,11 @@
             </div>
             <div class="field">
               <label class ="label" for="Simi">Sími:</label>
-              <input class="textabox" type="text" name="simi" placeholder="+354 812 3456">
+              <input class="textabox" id="Simi" type="text" name="simi" placeholder="+354 812 3456">
             </div>
             <div class="field">
               <label class ="label" for="Heimilisfang">Heimilisfang:</label>
-              <input class="textabox" type="text" name="heimilisfang">
+              <input class="textabox" id="Heimilisfang" type="text" name="heimilisfang">
             </div>
             <div>
               <input id="checkbox" type="checkbox" checked> Skrá mig á póstlista
@@ -95,17 +95,17 @@
             </div>
             <div class="field">
               <label class ="label" for="Kortanafn">Nafn á korti:</label>
-              <input class="textabox" type="text" name="kortanafn">
+              <input class="textabox" id="Kortanafn" type="text" name="kortanafn">
             </div>
             <div class="field">
               <label class ="label" for="Kortanumer">Kortanúmer:</label>
-              <input class="textabox" type="text" name="kortanumer" placeholder="5999-9999-9999-9999">
+              <input class="textabox" id="Kortanumer" type="text" name="kortanumer" placeholder="5999-9999-9999-9999">
             </div>
             <div class="field">
               <label class ="label" >Gildistími:</label>
               <div class="date">
                 <label class="months" for="month">Mán
-                  <select name="month" class="month">
+                  <select id="month" name="month" class="month">
                     <option class="option" value="januar">01</option>
                     <option class="option" value="februar">02</option>
                     <option class="option" value="mars">03</option>
@@ -121,7 +121,7 @@
                   </select>
                 </label>
                 <label class="years" for="year">Ár
-                  <select name="ar" class="year">
+                  <select id="year" name="ar" class="year">
                     <option class="option" value="2017">2017</option>
                     <option class="option" value="2018">2018</option>
                     <option class="option" value="2019">2019</option>
@@ -143,9 +143,6 @@
     </form>
   </main>
   <footer>
-    <div class="grid">
-      <div class="footer">
-        <div class="box">
           <div class="grid">
             <div class="footer">
               <div class="box">
