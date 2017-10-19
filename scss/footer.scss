@@ -1,28 +1,30 @@
+@import "scss/config";
+
 .footer {
   display: inline;
   color: #fff;
   text-align: center;
 
   .row {
-    max-width: 1200px;
-    padding: 20px;
+    max-width: $max-width;
+    padding: $gutter;
     margin: auto;
   }
 
   .copyright {
-    max-width: 1200px;
-    margin-right: 20px;
-    margin-left: 20px;
+    max-width: $max-width;
+    margin-right: $gutter;
+    margin-left: $gutter;
     overflow: hidden;
     border-top: 2px solid #fff;
     opacity: 0.5;
   }
 
   .about {
-    padding-bottom: 20px;
+    padding-bottom: $gutter;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: $max-width) {
     .copyright {
       margin: auto;
     }
@@ -38,7 +40,7 @@
   background-color: #333;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $max-width) {
   .box {
     margin-right: 0;
     margin-left: 0;

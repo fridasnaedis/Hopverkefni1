@@ -1,6 +1,8 @@
+@import "scss/config";
+
 .text {
   &__p {
-    margin-bottom: 20px;
+    margin-bottom: $gutter;
   }
 
   .quote {
@@ -39,7 +41,7 @@
       color: #666;
     }
   }
-
+  
     &__bottom {
       display: flex;
       justify-content: center;
@@ -49,9 +51,9 @@
         font-family: Roboto Slab;
       }
     }
+
   &__index {
     margin-bottom: 80px;
     margin-top: 40px;
   }
-
 }
