@@ -17,8 +17,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   /* stylelint-disable-line */
   box-sizing: inherit;
 
