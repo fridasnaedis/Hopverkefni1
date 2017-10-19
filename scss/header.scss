@@ -1,15 +1,5 @@
 @import "scss/config";
 
-
-
-/*.header {
-  display: flex;
-  max-width: $max-width;
-  min-height: 200px;
-  margin: 0 auto $gutter;
-  align-items: center;
-}*/
-
 .header__index {
   display: flex;
   flex-direction: column;
@@ -21,9 +11,7 @@
   text-align: center;
   justify-content: center;
   margin-left: -$gutter;
-  ;
   margin-right: -$gutter;
-  ;
   margin-bottom: 10em;
 
 
