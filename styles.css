@@ -13,8 +13,8 @@ html {
       margin: 0; } }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   /* stylelint-disable-line */
   box-sizing: inherit;
   /* fjarlægjum margin og padding */
@@ -375,7 +375,7 @@ html {
   background-color: #333;
   opacity: 0.8; }
 
-.form .field label {
+.form .field .label {
   display: block; }
 
 .form .field {
@@ -406,13 +406,13 @@ html {
 .form .month {
   width: 100px; }
 
-.form .month option {
+.form .month .option {
   width: 50px; }
 
 .form .year {
   width: 100px; }
 
-.form .year option {
+.form .year .option {
   width: 50px; }
 
 .form .submit_button {
