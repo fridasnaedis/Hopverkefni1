@@ -1,47 +1,44 @@
+@import "scss/config";
+
 .navbar {
   width: 100%;
-  max-width: 1200px;
+  max-width: $max-width;
   margin: auto;
   line-height: 2.5rem;
   list-style-type: none;
 
-  a {
-    float: right;
-    margin-right: 20px;
-    margin-left: 20px;
+  .link {
+    margin-right: $gutter;
+    margin-left: $gutter;
     font-size: 1rem;
     color: #fff;
     text-decoration: none;
-  }
 
-  li:first-child {
-    float: left;
-  }
+    &__home {
+      float: left;
+    }
 
-  #kaupa-button {
-    display: none;
-    width: auto;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    line-height: normal;
-  }
-
-  @media (min-width: 400px) {
-    #kaupa-button {
-      display: inline;
+    &__um {
+      float: right;
     }
   }
 
-  @media (min-width: 1200px) {
-    a {
+  .button--kaupanavbar {
+    float: right;
+    margin-right: $gutter;
+    margin-left: 0;
+  }
+
+  @media (min-width: $max-width) {
+    .link__um,
+    .link__home {
       margin-right: 0;
       margin-left: 0;
     }
 
-    #kaupa-button {
-      margin-left: 20px;
+    .button--kaupanavbar {
+      margin-right: 0;
+      margin-left: $gutter;
     }
   }
 }

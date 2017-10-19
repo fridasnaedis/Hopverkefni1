@@ -1,86 +1,95 @@
+@import "scss/config";
+
 .form {
-  label {
-    display: block;
-  }
 
-  .field {
-    margin-bottom: 20px;
-  }
+	label {
+	  display: block;
+	}
 
-  .upplys {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    font-weight: bold;
-    transition: font-size 4s;
-  }
+	.field {
+	  margin-bottom: $gutter;
+	}
 
-  @media (max-width: 799px) {
-    .upplys {
-      font-size: 1.2em;
-      font-weight: bold;
-    }
-  }
+	.upplys {
+	  font-size: 1.5em;
+		font-weight: bold;
+		-webkit-transition: font-size 4s;
+	  margin-bottom: $gutter;
+		margin-top: 30px;
+	}
 
-  @media (max-width: 599px) {
-    .upplys {
-      font-size: 1em;
-      font-weight: bold;
-    }
-  }
+	@media (max-width: 799px) {
+		.upplys {
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+	}
 
-  #textabox {
-    width: 100%;
-  }
+	@media (max-width: 599px) {
+		.upplys {
+			font-size: 1em;
+			font-weight: bold;
+		}
+	}
 
-  #month {
-    width: 100px;
-  }
+	#textabox {
+	  width: 100%;
+	}
 
-  #month option {
-    width: 50px;
-  }
+	#textabox_2 {
+	  width: 100%;
+	}
 
-  #year {
-    width: 100px;
-  }
+	#month {
+		width: 100px;
+	}
 
-  #year option {
-    width: 50px;
-  }
+	#month option {
+		width: 50px;
+	}
 
-  .submit_button {
-    text-align: center;
-  }
+	#year {
+		width: 100px;
+	}
 
-  .months {
-    padding-right: 50px;
-  }
+	#year option {
+		width: 50px;
+	}
 
-  .years {
-    padding-right: 50px;
-  }
+	.submit_button {
+	    text-align: center;
+	}
 
-  .kyn {
-    display: column;
-  }
+	.months {
+		padding-right: 50px;
+	}
 
-  .kyn1 {
-    display: row;
-    padding-bottom: 5px;
-  }
+	.years {
+		padding-right: 50px;
+	}
 
-  .kyn2 {
-    display: row;
-    padding-bottom: 5px;
-  }
+	.kyn {
+	  display: column;
+	}
 
-  .kyn3 {
-    display: row;
-  }
+	.kyn1 {
+	  display: row;
+		padding-bottom: 5px;
+	}
 
-  .date {
-    display: flex;
-    padding-right: 10px;
-  }
+	.kyn2 {
+	  display: row;
+		padding-bottom: 5px;
+	}
+
+	.kyn3 {
+	  display: row;
+	}
+
+	.date {
+		display: flex;
+		color: red;
+		padding-right: 10px;
+	}
+
 }

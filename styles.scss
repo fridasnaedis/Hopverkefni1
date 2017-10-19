@@ -1,6 +1,4 @@
-// breytur fyrir mikið notaðar stærðir
-$max-width: 1200px;
-$gutter: 20px;
+@import "scss/config";
 
 /* setjum box-sizing: border-box; á allt */
 html { /* stylelint-disable-line */

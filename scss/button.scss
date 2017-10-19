@@ -1,3 +1,5 @@
+@import "scss/config";
+
 .button {
   display: inline-block;
 
@@ -47,25 +49,37 @@
     border-color: #eee;
   }
 
-
-  .__wrapper {
-     display: flex;    
-     flex-direction: center;
-     justify-content: center;
-     text-align: center;
-     justify-content: center;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 10em;
+  &--kaupanavbar {
+    display: none;
+    width: auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: normal;
   }
 
-  .a{
-      display: flex;    
-     text-align: center;
-     justify-content: center;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 10em;
+  @media (min-width: 400px) {
+    &--kaupanavbar {
+      display: inline;
+    }
+  }
+
+  &__header {
+
+    width: auto;
+    padding: 10px $gutter;
+    margin-top: $gutter;
+    font-size: 2rem;
+  }
+
+  &__footer{
+
+    text-align: center;
+    align: center;
+    width: auto;
+    padding: 10px 80px;
+    font-size: 2rem;
+
   }
 
 }
