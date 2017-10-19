@@ -47,6 +47,7 @@
     border-color: #eee;
   }
 
+<<<<<<< HEAD
   &--kaupanavbar {
     display: none;
     width: auto;
@@ -61,4 +62,27 @@
       display: inline;
     }
   }
+=======
+
+  .__wrapper {
+     display: flex;    
+     flex-direction: center;
+     justify-content: center;
+     text-align: center;
+     justify-content: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10em;
+  }
+
+  .a{
+      display: flex;    
+     text-align: center;
+     justify-content: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10em;
+  }
+
+>>>>>>> e1242657b001c1523b80c20162d73f86d971a859
 }
