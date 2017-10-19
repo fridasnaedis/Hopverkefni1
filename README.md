@@ -1,6 +1,6 @@
 # Hópverkefni 1 (Working title)
 
-Fyrsta stóra verkefnið í vefforritun 1. Hópfélagar eru Fríða Snædís Jóhannesdóttir (fsj3), 
+Fyrsta stóra verkefnið í vefforritun 1. Hópfélagar eru Fríða Snædís Jóhannesdóttir (fsj3),
 Ísak Arnar Kolbeins (iak5), Páll Ásgeir Björnsson (pab14) og Sara Björk Másdóttir (sbm5).
 
 ## Hefjumst handa
@@ -15,6 +15,14 @@ git clone https://github.com/fridasnaedis/Hopverkefni1.git
 
 What things you need to install the software and how to install them
 
+Þörf er á að hafa npm package manager til að geta keyrt skipanirnar. Er sett upp með node.js: https://nodejs.org/en/
+
+Opnað er Terminal /  Command Prompt og keyrt þessar skipanir:
+
+.> npm install -g browser-sync --save-dev
+.> npm install --save node-sass
+.> npm install --save-dev npm-run-all
+
 ```
 Give examples
 ```
@@ -23,7 +31,13 @@ Give examples
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+Opna Terminal / Command Prompt og skrifa:
+
+.> npm run dev
+
+þá opnast gluggi í Default Browser sem er hýstur á http://localhost:3000
+
+Ef þú vilt deila síðunni með einhverjum utan aðkomandi þá sést í Terminal- / Command Promt-glugganum External URL.
 
 ```
 Give the example
@@ -57,40 +71,24 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* Atom Editor
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Fríða Snædís Jóhannesdóttir**- [fridasnaedis](https://github.com/fridasnaedis)
+* **Ísak Arnar Kolbeins**- [sakkattack](https://github.com/sakkattack)
+* **Páll Ásgeir Björnsson**- [Pallur](https://github.com/Pallur)
+* **Sara Björk Másdóttir**- [sarabm](https://github.com/sarabm)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Og hér er listinn úr verkefninu sjálfu:
+https://github.com/fridasnaedis/Hopverkefni1/graphs/contributors
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
+* Markús peppaði feitt
 * Afram Skynet
-* etc
 
 Verkefni sem mun breyta heiminum
-
-
