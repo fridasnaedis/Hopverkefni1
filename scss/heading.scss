@@ -49,12 +49,12 @@
 }
 
 .heading .rest {
-  margin-left: $gutter;
   margin-bottom: 0;
+  margin-left: $gutter;
   color: #fff;
   word-wrap: break-word;
   @media (min-width: $max-width) {
-    margin: 0 auto;
     max-width: $max-width;
+    margin: 0 auto;
   }
 }
