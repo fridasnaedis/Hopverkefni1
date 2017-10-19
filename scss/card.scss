@@ -57,30 +57,32 @@
 
   &__review {
     display: flex;
+    width: 100%;
+    margin-bottom: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 40px;
 
     &__box {
       max-width: 260px;
     }
   }
   @media (min-width: 800px) {
-    &__review{
+    &__review {
       flex-wrap: nowrap;
+
       &__box {
-       max-width: 400px;
+        max-width: 400px;
       }
     }
   }
 
   @media (max-width: 560px) {
-    &__review{
+    &__review {
       flex-wrap: wrap;
+
       &__box {
-       max-width: 400px;
+        max-width: 400px;
       }
     }
   }

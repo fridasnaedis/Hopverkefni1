@@ -15,15 +15,13 @@
   justify-content: center;
 }
 
-  .button__header {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-delay: 4s;
-  }
+.button__header {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
 }
-
 
 .header__rest {
   display: flex;

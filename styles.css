@@ -306,11 +306,11 @@ html {
       margin: 20px; }
   .card__review {
     display: flex;
+    width: 100%;
+    margin-bottom: 40px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 40px; }
+    justify-content: space-evenly; }
     .card__review__box {
       max-width: 260px; }
   @media (min-width: 800px) {
