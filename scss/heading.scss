@@ -7,7 +7,6 @@
   font-size: 2rem;
 
   border: 0;
-
   @media (min-width: $max-width) {
     padding-right: 0;
     padding-left: 0;
@@ -48,6 +47,11 @@
 }
 
 .heading .rest{
-    padding-left: 24px;
+    margin-bottom: 0;
+    padding-left: $gutter;
+    word-wrap: break-word;
     color: #fff;
+    @media (min-width: $max-width) {
+    margin: 0 auto;
+  }
   }

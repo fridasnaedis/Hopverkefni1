@@ -182,15 +182,20 @@ main {
     font-size: 1.5rem; }
 
 .heading .rest {
-  padding-left: 24px;
+  margin-bottom: 0;
+  padding-left: 20px;
+  word-wrap: break-word;
   color: #fff; }
+  @media (min-width: 1200px) {
+    .heading .rest {
+      margin: 0 auto; } }
 
 .text__p {
   margin-bottom: 20px; }
 
 .text .quote {
   margin: 20px;
-  font-size: 2em;
+  font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5; }
   .text .quote__author {

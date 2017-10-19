@@ -5,19 +5,16 @@ section {
 
 h1 {
   margin-bottom: 30px;
-  /*border-bottom: 1px solid #999;*/
 }
 
 h2 {
   margin-bottom: 30px;
-  /*border-bottom: 1px solid #999;*/
 }
 
 hr {
   margin-bottom: 30px;
   padding-bottom: 30px;
   border: 0;
-  /*border-bottom: 1px solid #999;*/
 }
 
 section > hr:last-of-type {
