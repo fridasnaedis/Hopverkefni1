@@ -12,31 +12,30 @@
 </head>
 
 <body>
-  	<nav>
-      <div class="grid">
-        <div class="nav">
-          <div class="row">
-            <div class="col col-12 col-sm-12">
-              <ul class="navbar">
-                <li>
-                  <a class="link link__home" href="index.html"><h3 class="heading heading--navbar">Fooþjónustan</h3>
+  <nav>
+    <div class="grid">
+      <div class="nav">
+        <div class="row">
+          <div class="col col-12 col-sm-12">
+            <ul class="navbar">
+              <li>
+                <a class="link link__home" href="index.html"><h3 class="heading heading--navbar">Fooþjónustan</h3>
                     </a>
-                </li>
-                <li>
-                  <a class="button button--kaupanavbar" href="kaupa.html">Kaupa
+              </li>
+              <li>
+                <a class="button button--kaupanavbar" href="kaupa.html">Kaupa
                     </a>
-                </li>
-                <li>
-                  <a class="link link__um" href="um.html">Um
+              </li>
+              <li>
+                <a class="link link__um" href="um.html">Um
                     </a>
-               </li>
-              </ul>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-  	</nav>
-
+    </div>
+  </nav>
   <header>
     <div class="header__rest">
       <div class="heading">
@@ -44,162 +43,136 @@
       </div>
     </div>
   </header>
-
   <main>
     <form class="form">
-        <div class="grid">
-          <div class="row">
-
-              <div class="offset-1 col col-4 col-sm-12">
-                <div class="field">
-                  <p class="upplys">Persónuupplýsingar</p>
-                  <label for="Nafn">Nafn:</label>
-                  <input id="textabox" type="text" name="nafn">
+      <div class="grid">
+        <div class="row">
+          <div class="offset-1 col col-4 col-sm-12">
+            <div class="field">
+              <p class="upplys">Persónuupplýsingar</p>
+              <label for="Nafn">Nafn:</label>
+              <input id="textabox" type="text" name="nafn">
+            </div>
+            <div class="field">
+              <label for="Kennitala">Kennitala:</label>
+              <input id="textabox" type="text" name="kennitala" placeholder="123456-7890">
+            </div>
+            <div class="field">
+              <label>Kyn:</label>
+              <div class="kyn">
+                <div class="kyn1">
+                  <input id="kyn1" type="radio" name="radio"> Kona
                 </div>
-
-                <div class="field">
-                  <label for="Kennitala">Kennitala:</label>
-                  <input id="textabox" type="text" name="kennitala" placeholder="123456-7890">
+                <div class="kyn2">
+                  <input id="kyn2" type="radio" name="radio"> Karl
                 </div>
-
-                <div class="field">
-                  <label>Kyn:</label>
-
-                  <div class="kyn">
-
-                    <div class="kyn1">
-                      <input id="kyn1" type="radio" name="radio"> Kona
-                    </div>
-
-                    <div class="kyn2">
-                      <input id="kyn2" type="radio" name="radio"> Karl
-                    </div>
-
-                    <div class="kyn3">
-                      <input id="kyn3" type="radio" name="radio"> Annað
-                    </div>
-
-                  </div>
+                <div class="kyn3">
+                  <input id="kyn3" type="radio" name="radio"> Annað
                 </div>
-
-                <div class="field">
-                  <label for="Simi">Sími:</label>
-                  <input id="textabox" type="text" name="simi" placeholder="+354 812 3456">
-                </div>
-
-                <div class="field">
-                  <label for="Heimilisfang">Heimilisfang:</label>
-                  <input id="textabox" type="text" name="heimilisfang">
-                </div>
-
-                <div>
-                  <input id="checkbox" type="checkbox" checked> Skrá mig á póstlista
-                </div>
-          </div>
-
-            <div class="offset-1 col col-4 col-sm-12">
-              <p class="upplys">Greiðsluupplýsingar</p>
-              <div class="field">
-                <label>Greiða með:</label>
-                <select name="tegund" id="textabox">
-                  <option value="kreditkorti">Kreditkorti</option>
-                  <option value="millifærslu">Millifærslu</option>
-                  <option value="reiðufé">Reiðufé</option>
-                </select>
-              </div>
-
-              <div class="field">
-                <label for="Kortanafn">Nafn á korti:</label>
-                <input id="textabox" type="text"  name="kortanafn">
-              </div>
-
-              <div class="field">
-                <label for="Kortanumer">Kortanúmer:</label>
-                <input id="textabox" type="text" name="kortanumer" placeholder="5999-9999-9999-9999">
-              </div>
-
-              <div class="field">
-                  <label>Gildistími:</label>
-                    <div class="date">
-                        <label class="months" for="month">Mán
-                          <select name="month" id="month">
-                              <option value="januar">01</option>
-                              <option value="februar">02</option>
-                              <option value="mars">03</option>
-                              <option value="april">04</option>
-                              <option value="mai">05</option>
-                              <option value="juni">06</option>
-                              <option value="juli">07</option>
-                              <option value="agust">08</option>
-                              <option value="september">09</option>
-                              <option value="oktober">10</option>
-                              <option value="november">11</option>
-                              <option value="desember">12</option>
-                            </select>
-                        </label>
-
-                        <label class="years" for="year">Ár
-                          <select name="ar" id="year">
-                            <option value="2017">2017</option>
-                            <option value="2018">2018</option>
-                            <option value="2019">2019</option>
-                            <option value="2020">2020</option>
-                          </select>
-                        </label>
-                  </div>
               </div>
             </div>
+            <div class="field">
+              <label for="Simi">Sími:</label>
+              <input id="textabox" type="text" name="simi" placeholder="+354 812 3456">
+            </div>
+            <div class="field">
+              <label for="Heimilisfang">Heimilisfang:</label>
+              <input id="textabox" type="text" name="heimilisfang">
+            </div>
+            <div>
+              <input id="checkbox" type="checkbox" checked> Skrá mig á póstlista
+            </div>
           </div>
-
-          <div class="row">
-            <div class="col col-12">
-              <div class="submit_button">
-                <input type="submit" class="button" value="Panta">
+          <div class="offset-1 col col-4 col-sm-12">
+            <p class="upplys">Greiðsluupplýsingar</p>
+            <div class="field">
+              <label>Greiða með:</label>
+              <select name="tegund" id="textabox">
+                <option value="kreditkorti">Kreditkorti</option>
+                <option value="millifærslu">Millifærslu</option>
+                <option value="reiðufé">Reiðufé</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="Kortanafn">Nafn á korti:</label>
+              <input id="textabox" type="text" name="kortanafn">
+            </div>
+            <div class="field">
+              <label for="Kortanumer">Kortanúmer:</label>
+              <input id="textabox" type="text" name="kortanumer" placeholder="5999-9999-9999-9999">
+            </div>
+            <div class="field">
+              <label>Gildistími:</label>
+              <div class="date">
+                <label class="months" for="month">Mán
+                  <select name="month" id="month">
+                    <option value="januar">01</option>
+                    <option value="februar">02</option>
+                    <option value="mars">03</option>
+                    <option value="april">04</option>
+                    <option value="mai">05</option>
+                    <option value="juni">06</option>
+                    <option value="juli">07</option>
+                    <option value="agust">08</option>
+                    <option value="september">09</option>
+                    <option value="oktober">10</option>
+                    <option value="november">11</option>
+                    <option value="desember">12</option>
+                  </select>
+                </label>
+                <label class="years" for="year">Ár
+                  <select name="ar" id="year">
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                  </select>
+                </label>
               </div>
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col col-12">
+            <div class="submit_button">
+              <input type="submit" class="button" value="Panta">
+            </div>
+          </div>
+        </div>
+      </div>
     </form>
   </main>
-
-  		<footer>
-
+  <footer>
+    <div class="grid">
+      <div class="footer">
+        <div class="box">
           <div class="grid">
             <div class="footer">
               <div class="box">
-
-        <div class="grid">
-          <div class="footer">
-            <div class="box">
-
-
-              <div class="about">
-                <div class="row">
-
-                  <div class="col offset-3 col-3 offset-mm-0 col-mm-6 ">
-                    <p>Fooþjónustan</p>
-                    <p>123-456</p>
+                <div class="about">
+                  <div class="row">
+                    <div class="col offset-3 col-3 offset-mm-0 col-mm-6 ">
+                      <p>Fooþjónustan</p>
+                      <p>123-456</p>
+                    </div>
+                    <div class="col col-3 col-mm-6">
+                      <p>Opið 12-13 alla daga</p>
+                      <p>Bargata 1</p>
+                      <p>900 Foobar</p>
+                    </div>
                   </div>
-
-                  <div class="col col-3 col-mm-6">
-                    <p>Opið 12-13 alla daga</p>
-                    <p>Bargata 1</p>
-                    <p>900 Foobar</p>
+                </div>
+                <div class="copyright">
+                  <div class="row">
+                    <div class="col col-12 col-sm-12">
+                      <p>@Fooþjónustan2017</p>
+                    </div>
                   </div>
                 </div>
               </div>
-
-              <div class="copyright">
-                <div class="row">
-                  <div class="col col-12 col-sm-12">
-                    <p>@Fooþjónustan2017</p>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
-        </div>
-  		</footer>
+  </footer>
 </body>
+
 </html>

@@ -26,6 +26,7 @@
     "stylelint-config-primer": "^2.1.0"
   },
   "dependencies": {
+    "lint": "^1.1.2",
     "node-sass": "^4.5.3"
   }
 }

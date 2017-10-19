@@ -1,26 +1,22 @@
-
 section {
   margin-bottom: 30px;
 }
 
 h1 {
   margin-bottom: 30px;
-  /*border-bottom: 1px solid #999;*/
 }
 
 h2 {
   margin-bottom: 30px;
-  /*border-bottom: 1px solid #999;*/
 }
 
 hr {
   margin-bottom: 30px;
   padding-bottom: 30px;
   border: 0;
-  /*border-bottom: 1px solid #999;*/
 }
 
-section > hr:last-of-type {
+section>hr:last-of-type {
   border: 0;
 }
 
@@ -30,10 +26,10 @@ section > hr:last-of-type {
   align-items: center;
 }
 
-.sg-example > * {
+.sg-example>* {
   margin: 0 7px 7px 0 !important;
 }
 
-.sg-example > *:last-child {
+.sg-example>*:last-child {
   margin-right: 0;
 }
